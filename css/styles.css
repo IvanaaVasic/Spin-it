@@ -6,12 +6,23 @@
 }
 
 @font-face {
-  font-family: "MontserratThin";
-  src: url("../assets/Montserrat-Thin.ttf") format("truetype");
+  font-family: "AwesomeBirds";
+  src: url("../assets/Awesome-Birds.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: "MontserratItalic";
+  src: url("../assets/Montserrat-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MontserratItalic";
+  src: url("../assets/Montserrat-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0 auto;
 }
@@ -123,6 +134,33 @@ nav ul {
 
 .dropdown:hover .dropbtn {
   background-color: transparent;
+}
+.second-part {
+  background-image: url(../img/kockice.png);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.planet {
+  padding: 60px 0px;
+}
+.about-us-text {
+  font-family: MontserratItalic;
+  width: 770px;
+
+  color: #636677;
+  text-align: center;
+  font-size: 16px;
+  line-height: 250%;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.quote {
+  color: #bf7979;
+  font-family: AwesomeBirds;
+  font-size: 140px;
 }
 
 /* Mobile */

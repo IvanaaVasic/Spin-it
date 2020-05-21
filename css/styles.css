@@ -12,8 +12,8 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "MontserratItalic";
-  src: url("../assets/Montserrat-Italic.ttf") format("truetype");
+  font-family: "MontserratThin";
+  src: url("../assets/Montserrat-Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -83,7 +83,7 @@ nav ul {
   align-items: center;
   justify-content: center;
   margin-bottom: 85px;
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 .wear {
   font-family: MontserratThin;

@@ -162,6 +162,133 @@ nav ul {
   font-family: AwesomeBirds;
   font-size: 140px;
 }
+.third-part {
+  background-color: #bf7979;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Useful Classes */
+
+.xy-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.transition {
+  transition: all 350ms ease-in-out;
+}
+
+.r-3-2 {
+  width: 100%;
+  padding-bottom: 100%;
+  background-color: #ddd;
+}
+
+.image-holder {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Main Styles */
+
+.gallery-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.gallery {
+  position: relative;
+  white-space: nowrap;
+  font-size: 0;
+  height: 400px;
+}
+
+.item-wrapper {
+  cursor: pointer;
+  /* arbitrary value */
+  display: inline-block;
+  background-color: white;
+  margin-right: 20px;
+  width: 350px;
+  height: 350px;
+}
+.item-wrapper:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.overlay {
+  background: #facacb;
+  color: #bf7979;
+  width: 200px;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 60%;
+  font-family: Montserratregular;
+  font-weight: bold;
+  left: 20%;
+}
+.arrow {
+  position: relative;
+  bottom: 115%;
+  left: 85%;
+  opacity: 0;
+}
+.item-wrapper:hover .overlay {
+  opacity: 1;
+}
+.item-wrapper:hover .arrow {
+  opacity: 1;
+}
+.controls {
+  font-size: 0;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+.move-btn {
+  width: 100px;
+  height: 100px;
+}
+.move-btn:first-child {
+  border-right: none;
+}
+
+.move-btn.left {
+  cursor: w-resize;
+}
+
+.move-btn.right {
+  cursor: e-resize;
+}
+
+.styles-container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
 
 /* Mobile */
 @media only screen and (max-width: 835px) {

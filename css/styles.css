@@ -314,6 +314,9 @@ nav ul {
   flex-direction: column;
   margin-top: 70px;
 }
+.mobile-arrow {
+  display: none;
+}
 
 .fourth-part {
   background-image: url(../img/kockice.png);
@@ -398,5 +401,11 @@ nav ul {
   }
   .shop ul {
     font-size: 10px;
+  }
+  .mobile-arrow {
+    display: block;
+  }
+  .web {
+    display: none;
   }
 }

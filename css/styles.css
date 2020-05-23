@@ -413,11 +413,43 @@ nav ul {
     justify-content: center;
     align-items: center;
   }
-  .products-mobile img {
-    width: 200px;
-    height: 200px;
+  .product-image {
+    width: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     margin: 10px 0px;
+  }
+  .overlay-mobile {
+    background: #facacb;
+    color: #bf7979;
+    width: 200px;
+    transition: 0.5s ease;
+    opacity: 0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 190px;
+    font-family: Montserratregular;
+    font-weight: bold;
+    left: 20%;
+  }
+  .arrow-mobile {
+    position: relative;
+    bottom: 370px;
+    left: 85%;
+    opacity: 0;
+  }
+  .products-mobile-holder:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: ease-out 0.5s;
+  }
+  .products-mobile-holder:hover .overlay-mobile {
+    opacity: 1;
+  }
+  .products-mobile-holder:hover .arrow-mobile {
+    opacity: 1;
   }
 }

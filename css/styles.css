@@ -23,6 +23,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: url("../assets/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0 auto;
 }
@@ -164,7 +170,6 @@ nav ul {
 }
 .third-part {
   background-color: #bf7979;
-  height: 600px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -231,6 +236,7 @@ nav ul {
 .item-wrapper:hover {
   opacity: 0.7;
   transform: scale(1.1);
+  transition: ease-out 0.5s;
 }
 
 .overlay {
@@ -290,6 +296,41 @@ nav ul {
   margin-top: 70px;
 }
 
+.fourth-part {
+  background-image: url(../img/kockice.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-footer {
+  width: 300px;
+  height: 300px;
+}
+.footer {
+  background-image: url(../img/kockice.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.list-footer {
+  text-decoration: none;
+  font-family: MontserratRegular;
+  color: #636677;
+}
+.head {
+  text-decoration: none;
+  font-family: MontserratSemiBold;
+  color: #bf7979;
+}
+.shop ul {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  line-height: 250%;
+  font-weight: bold;
+}
 /* Mobile */
 @media only screen and (max-width: 835px) {
   .navigation {

@@ -311,7 +311,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .list-footer {
@@ -329,6 +329,15 @@ nav ul {
   text-decoration: none;
   list-style: none;
   line-height: 250%;
+  font-weight: bold;
+}
+.copyRight {
+  background-image: url(../img/kockice.png);
+  display: flex;
+  justify-content: center;
+  font-family: MontserratRegular;
+  color: #636677;
+  padding-bottom: 30px;
   font-weight: bold;
 }
 /* Mobile */

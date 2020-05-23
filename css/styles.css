@@ -175,7 +175,6 @@ nav ul {
 .about-us-text {
   font-family: MontserratItalic;
   width: 770px;
-
   color: #636677;
   text-align: center;
   font-size: 16px;
@@ -373,6 +372,31 @@ nav ul {
     font-size: 28px;
   }
   .first-part {
-    background-image: url(../img/main-picture-mobile.png);
+    background-image: url(../img/main-picture-mobile2.jpg);
+    background-position: center;
+  }
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 290px;
+    }
+  }
+  .dropdown-content {
+    font-family: MontserratRegular;
+  }
+  .planet {
+    width: 150px;
+  }
+  .about-us-text {
+    width: 300px;
+    padding-bottom: 50px;
+  }
+  .quote {
+    font-size: 48px;
+  }
+  .shop ul {
+    font-size: 12px;
   }
 }

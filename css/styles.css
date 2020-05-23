@@ -190,8 +190,8 @@ nav ul {
 .third-part {
   background-color: #bf7979;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 *,
@@ -314,6 +314,11 @@ nav ul {
   flex-direction: column;
   margin-top: 70px;
 }
+.products-mobile {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
 
 .fourth-part {
   background-image: url(../img/kockice.png);
@@ -399,5 +404,20 @@ nav ul {
   }
   .shop ul {
     font-size: 10px;
+  }
+  .styles-container {
+    display: none;
+  }
+  .products-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .products-mobile img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
   }
 }

@@ -85,9 +85,9 @@ function stopMovement() {
   clearInterval(rightInterval);
 }
 
-leftBtn.addEventListener("mouseenter", moveLeft);
+leftBtn.addEventListener("mouseenter", moveRight);
 leftBtn.addEventListener("mouseleave", stopMovement);
-rightBtn.addEventListener("mouseenter", moveRight);
+rightBtn.addEventListener("mouseenter", moveLeft);
 rightBtn.addEventListener("mouseleave", stopMovement);
 
 //Start this baby up

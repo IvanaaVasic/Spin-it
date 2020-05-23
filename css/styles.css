@@ -36,6 +36,26 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
 }
+.wear {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Animation */
+.wear {
+  animation: animated-text 2s steps(30, end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 780px;
+  }
+}
 
 header {
   width: 100%;

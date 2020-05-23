@@ -1,7 +1,7 @@
 var gallery = document.querySelector(".gallery");
 var galleryItems = document.querySelectorAll(".gallery-item");
 var numOfItems = gallery.children.length;
-var itemWidth = 23; // percent: as set in css
+var itemWidth = 100; // percent: as set in css
 
 var featured = document.querySelector(".featured-item");
 
@@ -92,7 +92,16 @@ rightBtn.addEventListener("mouseleave", stopMovement);
 
 //Start this baby up
 (function init() {
-  var images = ["img/slika1.png", "img/slika2.png", "img/slika3.png", "img/slika4.png"];
+  var images = [
+    "img/slika1.png",
+    "img/slika2.png",
+    "img/slika3.png",
+    "img/slika4.png",
+    "img/slika1.png",
+    "img/slika2.png",
+    "img/slika3.png",
+    "img/slika4.png",
+  ];
 
   //Set Initial Featured Image
 

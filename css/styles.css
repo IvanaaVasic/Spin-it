@@ -36,6 +36,9 @@ p {
   margin-block-start: 0;
   margin-block-end: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 .wear {
   white-space: nowrap;
   overflow: hidden;
@@ -85,6 +88,7 @@ nav ul {
   flex-direction: row;
   list-style: none;
 }
+
 .social-media-icon {
   display: flex;
   flex-direction: column;
@@ -102,6 +106,10 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .text-box {
   background-color: #facacb;
@@ -151,7 +159,7 @@ nav ul {
 }
 
 .dropdown-content a:hover {
-  background-color: pink;
+  background-color: #bf7979;
 }
 
 .dropdown:hover .dropdown-content {

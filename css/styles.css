@@ -108,7 +108,6 @@ nav ul {
   align-items: flex-end;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
 }
 .text-box {
@@ -116,7 +115,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 85px;
+  margin-bottom: 110px;
   padding: 0px 30px;
 }
 .wear {

@@ -1,0 +1,35 @@
+.first-part-products {
+  background-image: url(../img/kockice-pink.png);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.tops-images {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.tops-images img {
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+}
+/* Mobile */
+@media only screen and (max-width: 835px) {
+  .first-part-products {
+    height: 3500px;
+  }
+  .tops-images {
+    padding-top: 150px;
+  }
+  .tops-images img {
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+  }
+}

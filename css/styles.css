@@ -251,6 +251,7 @@ nav ul {
 }
 
 .item-wrapper {
+  position: relative;
   cursor: pointer;
   /* arbitrary value */
   display: inline-block;
@@ -281,9 +282,9 @@ nav ul {
   left: 20%;
 }
 .arrow {
-  position: relative;
-  bottom: 115%;
-  left: 85%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
   opacity: 0;
 }
 .item-wrapper:hover .overlay {

@@ -1,3 +1,10 @@
+.dropbtn-products {
+  background-size: cover;
+  background-image: url(../img/menu_white.png);
+  color: white;
+  width: 30px;
+  height: 25px;
+}
 .first-part-products {
   background-image: url(../img/kockice-pink.png);
   background-size: cover;
@@ -9,11 +16,19 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+.page-name {
+  font-family: AwesomeBirds;
+  font-size: 120px;
+  color: #636677;
+  font-weight: normal;
+}
 .tops-images {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
+  align-items: center;
 }
+
 .tops-images img {
   width: 250px;
   height: 250px;
@@ -51,5 +66,8 @@
   .tops-image-holder {
     display: flex;
     flex-direction: column;
+  }
+  .page-name {
+    font-size: 100px;
   }
 }

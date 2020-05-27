@@ -276,11 +276,12 @@ nav ul {
   font-size: 20px;
   padding: 20px;
   text-align: center;
-  position: relative;
-  bottom: 60%;
+  position: absolute;
   font-family: Montserratregular;
   font-weight: bold;
-  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
 }
 .arrow {
   position: absolute;

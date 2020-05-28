@@ -170,6 +170,7 @@
   .first-part-single-products {
     flex-direction: column;
     height: 1500px;
+    background-size: contain;
   }
   .column {
     padding-left: 20px;

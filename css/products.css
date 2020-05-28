@@ -89,7 +89,7 @@
 /* Mobile */
 @media only screen and (max-width: 835px) {
   .first-part-products {
-    height: 3800px;
+    height: 3850px;
   }
   .tops-images {
     padding-top: 150px;
@@ -97,7 +97,7 @@
   .products-images {
     width: 340px;
     height: 340px;
-    margin: 30px;
+    margin: 30px 0px;
   }
   .tops-image-holder {
     display: flex;
@@ -105,5 +105,9 @@
   }
   .page-name {
     font-size: 140px;
+  }
+  .overlay-button-3 {
+    top: 45px;
+    right: 15px;
   }
 }

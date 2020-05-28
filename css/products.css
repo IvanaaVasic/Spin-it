@@ -70,8 +70,8 @@
 }
 .overlay-button-3 {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 40px;
+  right: 40px;
   opacity: 0;
 }
 .images-text-holder:hover .overlay-button-1 {

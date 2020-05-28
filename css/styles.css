@@ -453,8 +453,8 @@ nav ul {
     margin-bottom: 30px;
   }
   .product-image {
-    width: 340px;
-    height: 340px;
+    width: 335px;
+    height: 335px;
   }
   .overlay-mobile {
     background: #facacb;
@@ -473,8 +473,8 @@ nav ul {
   }
   .arrow-mobile {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 12px;
+    right: 12px;
     opacity: 0;
   }
   .products-mobile-holder:hover {

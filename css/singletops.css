@@ -1,0 +1,167 @@
+.navigation-color {
+  color: #bf7979;
+}
+.first-part-single-products {
+  background-image: url(../img/kockice.png);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.left-part {
+  width: 50%;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  padding-left: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  padding: 0px 30px 10px 0px;
+}
+
+.row img {
+  cursor: pointer;
+  width: 100px;
+}
+
+.container {
+  position: relative;
+  display: block;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+.right-part {
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.product-name {
+  font-family: AwesomeBirds;
+  font-weight: normal;
+  color: #636677;
+  font-size: 100px;
+}
+.product-color {
+  font-family: MontserratRegular;
+  color: #636677;
+}
+.color-button {
+  display: flex;
+  flex-direction: row;
+}
+.position {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 20px 20px 0px 0px;
+}
+.dark-pink-button {
+  background-color: #bf7979;
+}
+.light-pink-button {
+  background-color: #facacb;
+}
+.pink-button {
+  background-color: rgb(219, 29, 92);
+}
+.size-selection {
+  font-family: MontserratRegular;
+  color: #636677;
+  margin-top: 20px;
+}
+.product-size {
+  display: flex;
+  flex-direction: row;
+}
+.size {
+  font-family: MontserratRegular;
+  color: #bf7979;
+  margin: 20px 20px 0px 0px;
+}
+.product-size a {
+  text-decoration: none;
+}
+.price {
+  font-family: MontserratRegular;
+  color: #636677;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.material {
+  font-family: MontserratItalic;
+  font-weight: bold;
+  color: #636677;
+  margin-top: 20px;
+}
+.material-description {
+  font-family: MontserratItalic;
+  line-height: 220%;
+  color: #636677;
+  margin-top: 20px;
+}
+.counting-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+.plus-button {
+  font-family: MontserratRegular;
+  background-color: white;
+  border: 1px solid #636677;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-right: none;
+}
+.minus-button {
+  font-family: MontserratRegular;
+  background-color: white;
+  border: 1px solid #636677;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-left: none;
+}
+.count-holder {
+  font-family: MontserratRegular;
+  background-color: white;
+  border: 1px solid #636677;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-right: none;
+  border-left: none;
+}
+.addCart {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 28px;
+  background-color: #bf7979;
+  color: white;
+  font-family: MontserratItalic;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <title>Spin It</title>
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="img/planeta.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css?7" />
+    <link rel="stylesheet" type="text/css" href="css/singletops.css?7" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="img/Logo.png" class="logo" />
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html" class="navigation-color">HOME</a></li>
+          <li><a href="#products-section" class="navigation-color">PRODUCTS</a></li>
+          <li><a href="" class="navigation-color">EDITORIAL</a></li>
+          <li><a href="" class="navigation-color">COMMERCIAL</a></li>
+          <li><a href="#about-us" class="navigation-color">ABOUT US</a></li>
+          <li><a href="" class="navigation-color">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-media-icon">
+        <div class="dropdown">
+          <div class="dropbtn"></div>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="#products-section">Products</a>
+            <a href="#">Editorial</a>
+            <a href="#">Commercial</a>
+            <a href="#about-us">About us</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <img src="img/fb-icon.png" class="face" />
+        <img src="img/insta-icon.png" class="insta" />
+      </div>
+    </header>
+
+    <div class="first-part-single-products">
+      <div class="left-part">
+        <div class="column">
+          <div class="row">
+            <img src="img/test-image.jpg" onclick="myFunction(this);" />
+          </div>
+          <div class="row">
+            <img src="img/test-image1.jpg" onclick="myFunction(this);" />
+          </div>
+          <div class="row">
+            <img src="img/test-image2.jpg" onclick="myFunction(this);" />
+          </div>
+          <div class="row">
+            <img src="img/test-image3.jpg" onclick="myFunction(this);" />
+          </div>
+        </div>
+
+        <div class="container">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img src="img/test-image.jpg" id="expandedImg" style="width: 99%;" />
+        </div>
+      </div>
+      <div class="right-part">
+        <h1 class="product-name">Heart top</h1>
+        <div class="product-color">Color: Nude Pink</div>
+        <div class="color-button">
+          <a href=""><div class="dark-pink-button position"></div></a>
+          <a href=""><div class="light-pink-button position"></div></a>
+          <a href=""><div class="pink-button position"></div></a>
+        </div>
+        <div class="size-selection">Select your size:</div>
+        <div class="product-size">
+          <a href=""><div class="size">XS</div></a>
+          <a href=""><div class="size">S</div></a>
+          <a href=""><div class="size">M</div></a>
+        </div>
+        <div class="price">3.299,0 RSD</div>
+        <div class="material">Material: 80% polyester, 20% cotton</div>
+        <div class="material-description">
+          All our materials are chosem with the utmost care<br />
+          and guarantee a comfortable excersizing experience.<br />Handcrafted with love in Serbia.
+        </div>
+        <div class="counting-buttons">
+          <button onclick="addPieces()" class="plus-button">+</button>
+          <div class="count-holder">1</div>
+          <button onclick="subPieces()" class="minus-button">-</button>
+          <button class="addCart"><img src="img/shoping-cart.png" />Add to cart</button>
+          <img src="img/fav.png" />
+        </div>
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    <script src="js/common.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>

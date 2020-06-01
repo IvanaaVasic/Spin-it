@@ -13,7 +13,7 @@
   background-image: url(../img/kockice-pink.png);
   background-size: cover;
   width: 100%;
-  height: 950px;
+  height: 1000px;
   display: flex;
   justify-content: center;
   /* Create the parallax scrolling effect */
@@ -23,8 +23,9 @@
 .page-name {
   font-family: AwesomeBirds;
   font-size: 120px;
-  color: #636677;
+  color: white;
   font-weight: normal;
+  margin-top: 30px;
 }
 .tops-images {
   display: flex;
@@ -49,10 +50,14 @@
   align-items: center;
   position: relative;
 }
+.images-text-holder:hover {
+  transform: scale(1.1);
+  transition: ease-out 0.5s;
+}
 
 .images-text-holder div {
   font-family: MontserratItalic;
-  color: #636677;
+  color: white;
 }
 .overlay-button-1 {
   position: absolute;

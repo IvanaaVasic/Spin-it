@@ -41,25 +41,25 @@
       <div class="left-part">
         <div class="column">
           <div class="row">
-            <img src="img/test-image.jpg" onclick="myFunction(this);" />
+            <img src="img/test-image.jpg" onclick="changeMainPicture(this);" />
           </div>
           <div class="row">
-            <img src="img/test-image1.jpg" onclick="myFunction(this);" />
+            <img src="img/test-image1.jpg" onclick="changeMainPicture(this);" />
           </div>
           <div class="row">
-            <img src="img/test-image2.jpg" onclick="myFunction(this);" />
+            <img src="img/test-image2.jpg" onclick="changeMainPicture(this);" />
           </div>
           <div class="row">
-            <img src="img/test-image3.jpg" onclick="myFunction(this);" />
+            <img src="img/test-image3.jpg" onclick="changeMainPicture(this);" />
           </div>
         </div>
 
         <div class="container">
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
           <img src="img/test-image.jpg" id="expandedImg" style="width: 99%;" />
         </div>
       </div>
       <div class="right-part">
+        <div id="myresult" class="img-zoom-result"></div>
         <h1 class="product-name">Heart top</h1>
         <div class="product-color">Color: Nude Pink</div>
         <div class="color-button">
@@ -80,9 +80,9 @@
           and guarantee a comfortable excersizing experience.<br />Handcrafted with love in Serbia.
         </div>
         <div class="counting-buttons">
-          <button onclick="addPieces()" class="plus-button">+</button>
-          <div class="count-holder">1</div>
           <button onclick="subPieces()" class="minus-button">-</button>
+          <div class="count-holder">1</div>
+          <button onclick="addPieces()" class="plus-button">+</button>
           <button class="addCart"><img src="img/shoping-cart.png" />Add to cart</button>
           <img src="img/fav.png" />
         </div>

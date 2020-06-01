@@ -100,6 +100,10 @@ nav ul {
   height: 30px;
   margin: 20px 30px 0px 0px;
 }
+.basket {
+  position: fixed;
+  bottom: 420px;
+}
 .first-part {
   background-image: url(../img/main-picture.png);
   background-size: cover;
@@ -339,8 +343,8 @@ nav ul {
   align-items: center;
 }
 .logo-footer {
-  width: 280px;
-  height: 341px;
+  width: 300px;
+  height: 365px;
   margin-top: 25px;
   margin-bottom: 25px;
 }

@@ -127,6 +127,7 @@
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   border-right: none;
+  font-size: 25px;
 }
 .minus-button {
   font-family: MontserratRegular;
@@ -138,6 +139,7 @@
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
   border-left: none;
+  font-size: 25px;
 }
 .count-holder {
   font-family: MontserratRegular;

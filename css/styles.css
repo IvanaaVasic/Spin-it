@@ -69,7 +69,9 @@ header {
 }
 .logo {
   width: 150px;
-  height: 150px;
+  height: 182px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 .navigation li {
   padding: 0px 40px 10px 10px;
@@ -337,8 +339,10 @@ nav ul {
   align-items: center;
 }
 .logo-footer {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 341px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .footer {
   background-image: url(../img/kockice.png);
@@ -490,5 +494,13 @@ nav ul {
   }
   .copyRight {
     font-size: 15px;
+  }
+  .logo-footer {
+    width: 150px;
+    height: 182px;
+  }
+  .logo {
+    width: 80px;
+    height: 97px;
   }
 }

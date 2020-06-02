@@ -221,7 +221,6 @@
     flex-direction: row;
     margin-top: 550px;
     position: absolute;
-    right: 10px;
   }
   .left-part {
     width: 100%;
@@ -243,5 +242,11 @@
     font-size: 100px;
     bottom: 50px;
     padding-left: 60px;
+  }
+  .img-zoom-result {
+    display: none;
+  }
+  .img-zoom-lens {
+    display: none;
   }
 }

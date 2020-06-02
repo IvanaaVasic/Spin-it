@@ -68,8 +68,8 @@ header {
   align-items: center;
 }
 .logo {
-  width: 150px;
-  height: 182px;
+  width: 100px;
+  height: 121px;
   margin-left: 50px;
   margin-top: 20px;
   cursor: pointer;
@@ -342,8 +342,8 @@ nav ul {
   align-items: center;
 }
 .logo-footer {
-  width: 300px;
-  height: 365px;
+  width: 210px;
+  height: 255px;
   margin-top: 25px;
   margin-bottom: 25px;
 }

@@ -71,7 +71,8 @@ header {
   width: 150px;
   height: 182px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
+  cursor: pointer;
 }
 .navigation li {
   padding: 0px 40px 10px 10px;
@@ -99,11 +100,9 @@ nav ul {
   width: 30px;
   height: 30px;
   margin: 20px 30px 0px 0px;
+  cursor: pointer;
 }
-.basket {
-  position: fixed;
-  bottom: 420px;
-}
+
 .first-part {
   background-image: url(../img/main-picture.png);
   background-size: cover;
@@ -413,6 +412,7 @@ nav ul {
   .wear {
     font-size: 28px;
   }
+
   .first-part {
     background-image: url(../img/main-picture-mobile2.jpg);
     background-position: center;

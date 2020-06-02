@@ -5,13 +5,13 @@
   background-image: url(../img/kockice.png);
   background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   display: flex;
   flex-direction: row;
 }
 .left-part {
   width: 50%;
-  margin-top: 270px;
+  margin-top: 240px;
   display: flex;
   flex-direction: row;
 }
@@ -33,6 +33,7 @@
 .container {
   position: relative;
   display: block;
+  cursor: zoom-in;
 }
 
 .closebtn {
@@ -44,17 +45,14 @@
   cursor: pointer;
 }
 .right-part {
-  margin-top: 270px;
+  margin-top: 230px;
   padding-left: 50px;
 }
 .product-name {
   font-family: AwesomeBirds;
   font-weight: normal;
-
+  color: #636677;
   font-size: 100px;
-  background: linear-gradient(to bottom, red 0%, red 50%, blue 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .product-color {
   font-family: MontserratRegular;
@@ -131,6 +129,7 @@
   border-bottom-left-radius: 50%;
   border-right: none;
   font-size: 25px;
+  cursor: pointer;
 }
 .plus-button {
   font-family: MontserratRegular;
@@ -143,6 +142,7 @@
   border-bottom-right-radius: 50%;
   border-left: none;
   font-size: 25px;
+  cursor: pointer;
 }
 .count-holder {
   font-family: MontserratRegular;
@@ -169,6 +169,7 @@
   justify-content: space-around;
   margin-left: 20px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .img-zoom-container {
@@ -179,31 +180,47 @@
   position: absolute;
   border: 1px solid #d4d4d4;
   /*set the size of the lens:*/
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 170px;
 }
 
 .img-zoom-result {
   position: absolute;
-  /*set the size of the result div:*/
+  border: 1px solid #636677;
   width: 300px;
   height: 300px;
   display: none;
   transform: scale(1.1);
   /* transition: ease-out 0.5s; */
-  right: 365px;
+  right: 350px;
   bottom: 50px;
+}
+.pair-with {
+  background-color: #bf7979;
+  height: 500px;
+}
+.pair-text {
+  font-family: AwesomeBirds;
+  font-size: 160px;
+  position: relative;
+  bottom: 80px;
+  padding-left: 150px;
+  background: linear-gradient(to bottom, #bf7979 0%, #bf7979 50%, white 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 835px) {
   .first-part-single-products {
     flex-direction: column;
-    height: 1500px;
+    height: 1600px;
     background-size: contain;
   }
   .column {
     padding-left: 20px;
     flex-direction: row;
+    margin-top: 550px;
+    position: absolute;
   }
   .left-part {
     width: 100%;
@@ -211,16 +228,19 @@
   }
   .row img {
     cursor: pointer;
-    width: 100px;
+    width: 75px;
   }
   .row {
-    padding: 20px 20px 10px 0px;
+    padding: 20px 12px 10px 0px;
   }
-  .row img {
-    width: 70px;
-  }
+
   .right-part {
-    padding-top: 20px;
+    margin-top: 170px;
     padding-left: 20px;
+  }
+  .pair-text {
+    font-size: 100px;
+    bottom: 50px;
+    padding-left: 60px;
   }
 }

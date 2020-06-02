@@ -221,7 +221,7 @@
     flex-direction: row;
     margin-top: 550px;
     position: absolute;
-    right: 9px;
+    right: 7px;
   }
   .left-part {
     width: 100%;
@@ -248,6 +248,9 @@
     display: none;
   }
   .img-zoom-lens {
+    display: none;
+  }
+  .img-zoom-container {
     display: none;
   }
 }

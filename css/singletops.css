@@ -221,6 +221,7 @@
     flex-direction: row;
     margin-top: 550px;
     position: absolute;
+    right: 9px;
   }
   .left-part {
     width: 100%;

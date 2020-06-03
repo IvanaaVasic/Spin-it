@@ -11,7 +11,7 @@
 }
 .left-part {
   width: 50%;
-  margin-top: 240px;
+  margin-top: 180px;
   display: flex;
   flex-direction: row;
 }
@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .right-part {
-  margin-top: 230px;
+  margin-top: 180px;
   padding-left: 50px;
 }
 .product-name {

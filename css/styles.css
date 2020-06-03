@@ -199,6 +199,7 @@ nav ul {
   color: #bf7979;
   font-family: AwesomeBirds;
   font-size: 140px;
+  margin-bottom: 50px;
 }
 .third-part {
   background-color: #bf7979;
@@ -342,10 +343,10 @@ nav ul {
   align-items: center;
 }
 .logo-footer {
-  width: 210px;
-  height: 255px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  width: 180px;
+  height: 219px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .footer {
   background-image: url(../img/kockice.png);

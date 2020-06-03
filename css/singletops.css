@@ -226,6 +226,7 @@
   .left-part {
     width: 100%;
     flex-direction: column;
+    margin-top: 230px;
   }
   .row img {
     cursor: pointer;

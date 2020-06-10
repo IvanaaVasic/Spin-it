@@ -1,0 +1,60 @@
+.navigation-color {
+  color: #bf7979;
+}
+.navigation-color:hover {
+  color: #636677;
+}
+.first-part-editorial {
+  background-image: url(../img/kockice.png);
+  width: 100%;
+  height: 1200px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+.left-part-album-name {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+.left-part-album-name a {
+  text-decoration: none;
+  font-family: MontserratItalic;
+  color: #636677;
+  line-height: 220%;
+}
+.right-part-pictures {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 180px;
+}
+.first-row-pictures {
+  display: flex;
+  flex-direction: row;
+}
+.ribbon-picture-1 {
+  width: 400px;
+  height: 523px;
+}
+.ribbon-picture-2 {
+  width: 550px;
+  height: 346px;
+}
+.second-row-pictures {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: absolute;
+  top: 500px;
+}
+.ribbon-picture-3 {
+  width: 550px;
+  height: 362px;
+}
+.ribbon-picture-4 {
+  width: 400px;
+  height: 566px;
+}

@@ -1,6 +1,9 @@
 .navigation-color {
   color: #bf7979;
 }
+.navigation-color:hover {
+  color: #636677;
+}
 .first-part-single-products {
   background-image: url(../img/kockice.png);
   background-size: cover;

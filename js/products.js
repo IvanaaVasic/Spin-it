@@ -1,7 +1,6 @@
 var itemHolderCount = 1;
 
 function changeMainPicture(imgs) {
-  console.log(imgs);
   var expandImg = document.getElementById("expandedImg");
   expandImg.src = imgs.src;
   expandImg.parentElement.style.display = "block";

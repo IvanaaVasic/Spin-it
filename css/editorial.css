@@ -19,11 +19,18 @@
   margin-top: 250px;
   margin-left: 50px;
 }
-.left-part-album-name a {
+.side-menu {
   text-decoration: none;
   font-family: MontserratItalic;
   color: #636677;
   line-height: 220%;
+  cursor: pointer;
+}
+.side-menu:hover {
+  color: #bf7979;
+}
+#zoom {
+  transform: scale(1.1);
 }
 .right-part-pictures {
   display: flex;
@@ -38,10 +45,14 @@
 .ribbon-picture-1 {
   width: 400px;
   height: 523px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
 }
 .ribbon-picture-2 {
   width: 550px;
   height: 346px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
 }
 .second-row-pictures {
   display: flex;
@@ -53,8 +64,12 @@
 .ribbon-picture-3 {
   width: 550px;
   height: 362px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
 }
 .ribbon-picture-4 {
   width: 400px;
   height: 566px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
 }

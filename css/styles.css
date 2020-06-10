@@ -356,7 +356,7 @@ nav ul {
   background-image: url(../img/kockice.png);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-bottom: 80px;
 }
 
@@ -445,7 +445,7 @@ nav ul {
     padding-bottom: 20px;
   }
   .shop ul {
-    font-size: 10px;
+    font-size: 12px;
   }
   .styles-container {
     display: none;
@@ -520,5 +520,7 @@ nav ul {
   }
   .basket {
     top: 145px;
+  }
+  .footer {
   }
 }

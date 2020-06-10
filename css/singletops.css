@@ -54,6 +54,9 @@
   color: #636677;
   font-size: 100px;
 }
+.mobile-header {
+  display: none;
+}
 .product-color {
   font-family: MontserratRegular;
   color: #636677;
@@ -219,7 +222,7 @@
   .column {
     padding-left: 20px;
     flex-direction: row;
-    margin-top: 550px;
+    margin-top: 650px;
     position: absolute;
     right: 5px;
   }
@@ -253,5 +256,12 @@
   }
   .img-zoom-container {
     display: none;
+  }
+  .web-header {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+    text-align: center;
   }
 }

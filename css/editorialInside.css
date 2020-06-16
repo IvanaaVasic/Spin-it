@@ -116,20 +116,20 @@
 /* Mobile */
 @media only screen and (max-width: 835px) {
   .persona {
-    margin-top: 190px;
-    width: 320px;
+    margin-top: 200px;
+    width: 340px;
   }
   .first {
-    width: 250px;
+    width: 240px;
   }
   .second {
-    width: 200px;
+    width: 210px;
     margin-right: 10px;
   }
   .third {
-    width: 100px;
+    width: 110px;
   }
   .fourth {
-    width: 320px;
+    width: 340px;
   }
 }

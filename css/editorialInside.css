@@ -113,3 +113,23 @@
 .inline-photo.is-visible {
   opacity: 1;
 }
+/* Mobile */
+@media only screen and (max-width: 835px) {
+  .persona {
+    margin-top: 190px;
+    width: 320px;
+  }
+  .first {
+    width: 250px;
+  }
+  .second {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .third {
+    width: 100px;
+  }
+  .fourth {
+    width: 320px;
+  }
+}

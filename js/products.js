@@ -15,6 +15,9 @@ function addPieces() {
   numberHolder.innerHTML = itemHolderCount;
 }
 function subPieces() {
+  if (itemHolderCount <= 0) {
+    return;
+  }
   itemHolderCount--;
   var numberHolder = document.querySelector(".count-holder");
   numberHolder.innerHTML = itemHolderCount;

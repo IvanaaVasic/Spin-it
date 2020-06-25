@@ -308,8 +308,7 @@ nav ul {
   justify-content: space-between;
 }
 .move-btn {
-  width: 100px;
-  height: 100px;
+  margin-bottom: 10px;
 }
 .move-btn:first-child {
   border-right: none;
@@ -317,10 +316,12 @@ nav ul {
 
 .move-btn.left {
   cursor: w-resize;
+  margin-left: 10px;
 }
 
 .move-btn.right {
   cursor: e-resize;
+  margin-right: 10px;
 }
 
 .styles-container {
@@ -462,15 +463,15 @@ nav ul {
     margin-bottom: 30px;
   }
   .product-image {
-    width: 335px;
-    height: 335px;
+    width: 325px;
+    height: 325px;
     position: relative;
   }
   .overlay-mobile {
     background: #facacb;
     color: #bf7979;
     transition: 0.5s ease;
-    opacity: 0;
+    opacity: 1;
     font-size: 20px;
     padding: 5px 20px;
     text-align: center;
@@ -485,19 +486,14 @@ nav ul {
     position: absolute;
     top: 12px;
     right: 12px;
-    opacity: 0;
+    opacity: 1;
   }
   .products-mobile-holder:hover {
     opacity: 0.7;
     transform: scale(1.1);
     transition: ease-out 0.5s;
   }
-  .products-mobile-holder:hover .overlay-mobile {
-    opacity: 1;
-  }
-  .products-mobile-holder:hover .arrow-mobile {
-    opacity: 1;
-  }
+
   .copyRight {
     font-size: 15px;
   }

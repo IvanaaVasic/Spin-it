@@ -405,6 +405,7 @@ nav ul {
 
 .popUpImage {
   background-image: url(../img/InstagramFollowImage.png);
+  display: block;
   width: 400px;
   height: 482px;
   position: relative;

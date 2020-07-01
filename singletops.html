@@ -34,7 +34,24 @@
         </div>
         <img src="img/fb-icon.png" class="face" />
         <img src="img/insta-icon.png" class="insta" />
-        <img src="img/shoping-bag-pink.png" class="basket" />
+
+        <div class="dropdownS">
+          <div class="dropbtnS" onclick="myFunction()"></div>
+          <div id="myDropdownS" class="dropdown-contentS">
+            <div class="header-icon-cart">
+              <h2 class="section-header">Your shopping cart</h2>
+              <img class="cart-icon" src="img/shoping-bag-pink.png" />
+            </div>
+            <hr class="dotted" />
+
+            <div class="cart-items"></div>
+            <div class="cart-total">
+              <strong class="cart-total-title">Subtotal:</strong>
+              <span class="cart-total-price">0rsd</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">Check Out</button>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -61,9 +78,12 @@
         </div>
       </div>
       <div class="right-part">
+        <div class="cart-image">
+          <img class="shop-item-image" src="img/test-image.jpg" />
+        </div>
         <div id="myresult" class="img-zoom-result"></div>
-        <h1 class="product-name web-header">Heart top</h1>
-        <div class="product-color">Color: Nude Pink</div>
+        <h1 class="product-name web-header shop-item-title">Heart top</h1>
+        <div class="product-color shop-item-color">Color: Nude Pink</div>
         <div class="color-button">
           <a href=""><div class="dark-pink-button position"></div></a>
           <a href=""><div class="light-pink-button position"></div></a>
@@ -75,7 +95,7 @@
           <a href=""><div class="size">S</div></a>
           <a href=""><div class="size">M</div></a>
         </div>
-        <div class="price">3.299,0 RSD</div>
+        <div class="price shop-item-price">3.299,0 RSD</div>
         <div class="material">Material: 80% polyester, 20% cotton</div>
         <div class="material-description">
           All our materials are chosem with the utmost care<br />
@@ -85,7 +105,9 @@
           <button onclick="subPieces()" class="minus-button">-</button>
           <div class="count-holder">1</div>
           <button onclick="addPieces()" class="plus-button">+</button>
-          <button class="addCart"><img src="img/shoping-cart.png" />Add to cart</button>
+          <button class="addCart shop-item-button">
+            <img src="img/shoping-cart.png" />Add to cart
+          </button>
           <img src="img/fav.png" />
         </div>
       </div>
@@ -98,5 +120,6 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
     <script src="js/common.js"></script>
     <script src="js/products.js"></script>
+    <script src="store.js" async></script>
   </body>
 </html>

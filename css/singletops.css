@@ -51,6 +51,9 @@
   margin-top: 180px;
   padding-left: 50px;
 }
+.cart-image {
+  display: none;
+}
 .product-name {
   font-family: AwesomeBirds;
   font-weight: normal;

@@ -109,22 +109,24 @@ function updateCartTotal() {
   document.getElementsByClassName("cart-total-price")[0].innerText = total + " " + "RSD";
 }
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+
 function myFunction() {
   document.getElementById("myDropdownS").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
+document.getElementById('myDropdownS').addEventListener("click", (e)=> {
+  e.stopPropagation()
+})
+
+
 window.onclick = function (event) {
+  this.console.log(event.target.classList);
+  if(event.target.matches("dropdown-contentS")) return;
+
   if (!event.target.matches(".dropbtnS")) {
-    var dropdowns = document.getElementsByClassName("dropdown-contentS");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
+    var dropdowns = document.getElementsByClassName("dropdown-contentS")[0];
+    if (dropdowns.classList.contains("show")) {
+      dropdowns.classList.remove("show");
     }
   }
 };

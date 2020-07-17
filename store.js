@@ -47,9 +47,7 @@ function removeItemFromCart(itemId) {
 
   const items = cart.items.filter(i => i.id !== itemId);
 
-  const total = calculateTotal(cart);
-
-  putCartToStorage({ items, total });
+  putCartToStorage({ items });
 
   updateTotalPrice();
 }
@@ -60,9 +58,7 @@ function changeQuantity(itemId, newQuantity) {
   const items = cart.items.filter(i => i.id === itemId);
   items[0].quantity = newQuantity;
 
-  const total = calculateTotal(cart);
-
-  putCartToStorage({  ...cart });
+  putCartToStorage({ ...cart });
 }
 
 function calculateTotal(cart) {
@@ -72,6 +68,7 @@ function calculateTotal(cart) {
 function updateTotalPrice() {
   const cart = fetchCartFromStorage();
   const latestTotalPrice = calculateTotal(cart);
+  
   document.getElementsByClassName(
     "cart-total-price"
   )[0].innerHTML = `${latestTotalPrice} RSD`;
@@ -123,23 +120,21 @@ function quantityChanged(event) {
 }
 
 function addToCartClicked(event) {
-  var button = event.target;
-  var shopItem = button.parentElement.parentElement;
+  const button = event.target;
+  const shopItem = button.parentElement.parentElement;
 
-  var title = shopItem.getElementsByClassName("shop-item-title")[0].innerText;
-  var color = shopItem.getElementsByClassName("shop-item-color")[0].innerText;
-  var price = shopItem.getElementsByClassName("shop-item-price")[0].innerText;
+  const title = shopItem.getElementsByClassName("shop-item-title")[0].innerText;
+  const color = shopItem.getElementsByClassName("shop-item-color")[0].innerText;
+  const price = shopItem.getElementsByClassName("shop-item-price")[0].innerText;
   const size = document.querySelector(".size.selected").innerText;
-  var imageSrc = shopItem.getElementsByClassName("shop-item-image")[0].src;
+  const imageSrc = shopItem.getElementsByClassName("shop-item-image")[0].src;
 
   addItemToCart(title, price, imageSrc, color, size);
-
-  // updateCartTotal();
 }
 
 function showCart() {
   const cart = fetchCartFromStorage();
-  const {  items } = cart;
+  const { items } = cart;
 
   var cartItems = document.getElementsByClassName("cart-items")[0];
   cartItems.innerHTML = "";
@@ -156,7 +151,7 @@ function showCart() {
         </div>
         <div class="cart-title-color">
         <span class="cart-item-title">${title} ( ${size} )</span>
-        <span class="cart-item-color">${color}</span>
+        <span class="cart-item-color">Color: ${color}</span>
         <input class="cart-quantity-input" type="number" value="${quantity}">
         </div>
         <span class="cart-price cart-column">${price} RSD</span>
@@ -167,9 +162,6 @@ function showCart() {
     cartRow.innerHTML = cartRowContents;
 
     cartItems.append(cartRow);
-
-    // document.getElementsByClassName("cart-total-price")[0].innerText =
-    //   total + " RSD";
 
     // Remove item
     cartRow
@@ -214,30 +206,10 @@ function addItemToCart(title, priceStr, imageSrc, color, size) {
     return;
   }
 
-  console.log(title, color, size);
-
   const price = Number(priceStr.replace(/[RSD,. ]/g, ""));
   const quantity = document.querySelector(".count-holder").innerText;
 
   putItemToCart({ id, title, price, imageSrc, color, size, quantity });
-}
-
-function updateCartTotal() {
-  var cartItemContainer = document.getElementsByClassName("cart-items")[0];
-  var cartRows = cartItemContainer.getElementsByClassName("cart-row");
-  var total = 0;
-  for (var i = 0; i < cartRows.length; i++) {
-    var cartRow = cartRows[i];
-    var priceElement = cartRow.getElementsByClassName("cart-price")[0];
-    var quantityElement = cartRow.getElementsByClassName(
-      "cart-quantity-input"
-    )[0];
-    var price = parseFloat(priceElement.innerText.replace("$", ""));
-    var quantity = quantityElement.value;
-    total = total + price * quantity;
-  }
-
-  putCartTotalPrice(total);
 }
 
 document.getElementById("myDropdownS").addEventListener("click", e => {

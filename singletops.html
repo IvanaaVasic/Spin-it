@@ -1,7 +1,12 @@
 <html>
   <head>
     <title>Spin It</title>
-    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="img/planeta.ico" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      class="js-site-favicon"
+      href="img/planeta.ico"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/styles.css?15" />
     <link rel="stylesheet" type="text/css" href="css/singletops.css?15" />
@@ -12,8 +17,12 @@
       <nav class="navigation">
         <ul>
           <li><a href="index.html" class="navigation-color">HOME</a></li>
-          <li><a href="#products-section" class="navigation-color">PRODUCTS</a></li>
-          <li><a href="editorial.html" class="navigation-color">EDITORIAL</a></li>
+          <li>
+            <a href="#products-section" class="navigation-color">PRODUCTS</a>
+          </li>
+          <li>
+            <a href="editorial.html" class="navigation-color">EDITORIAL</a>
+          </li>
           <li><a href="" class="navigation-color">COMMERCIAL</a></li>
           <li><a href="#about-us" class="navigation-color">ABOUT US</a></li>
           <li><a href="" class="navigation-color">CONTACT</a></li>
@@ -45,7 +54,9 @@
             <hr class="dotted" />
 
             <div class="cart-items"></div>
-            <button class="btn btn-primary btn-purchase" type="button">Check Out</button>
+            <button class="btn btn-primary btn-purchase" type="button">
+              Check Out
+            </button>
           </div>
         </div>
       </div>
@@ -54,18 +65,34 @@
     <div class="first-part-single-products">
       <div class="left-part">
         <h1 class="product-name mobile-header">Heart top</h1>
-        <div class="column">
+        <div class="column product-images">
           <div class="row">
-            <img src="img/test-image.jpg" onclick="changeMainPicture(this);" />
+            <img
+              class="product-image"
+              src="img/test-image.jpg"
+              onclick="changeMainPicture(this);"
+            />
           </div>
           <div class="row">
-            <img src="img/test-image1.jpg" onclick="changeMainPicture(this);" />
+            <img
+              class="product-image"
+              src="img/test-image1.jpg"
+              onclick="changeMainPicture(this);"
+            />
           </div>
           <div class="row">
-            <img src="img/test-image2.jpg" onclick="changeMainPicture(this);" />
+            <img
+              class="product-image"
+              src="img/test-image2.jpg"
+              onclick="changeMainPicture(this);"
+            />
           </div>
           <div class="row">
-            <img src="img/test-image3.jpg" onclick="changeMainPicture(this);" />
+            <img
+              class="product-image"
+              src="img/test-image3.jpg"
+              onclick="changeMainPicture(this);"
+            />
           </div>
         </div>
 
@@ -74,28 +101,31 @@
         </div>
       </div>
       <div class="right-part">
-        <div class="cart-image">
-          <img class="shop-item-image" src="img/test-image.jpg" />
-        </div>
         <div id="myresult" class="img-zoom-result"></div>
         <h1 class="product-name web-header shop-item-title">Heart top</h1>
-        <div class="product-color">Color: <span class="shop-item-color">Nude Pink</span></div>
-        <div class="color-button">
-          <a href=""><div class="dark-pink-button position"></div></a>
-          <a href=""><div class="light-pink-button position"></div></a>
-          <a href=""><div class="pink-button position"></div></a>
+        <div class="product-color">
+          Color: <span class="shop-item-color">Nude Pink</span>
+        </div>
+        <div class="color-buttons">
+          <div
+            class="dark-pink-button red color-button selected"
+            color="red"
+          ></div>
+          <div class="light-pink-button blue color-button" color="blue"></div>
+          <div class="pink-button green color-button" color="green"></div>
         </div>
         <div class="size-selection">Select your size:</div>
         <div class="product-size">
-          <div class="size selected" > XS </div>
-          <div class="size" > S </div>
-          <div class="size" > M </div>
+          <div class="size selected">XS</div>
+          <div class="size">S</div>
+          <div class="size">M</div>
         </div>
         <div class="price shop-item-price">3.299 RSD</div>
         <div class="material">Material: 80% polyester, 20% cotton</div>
         <div class="material-description">
           All our materials are chosem with the utmost care<br />
-          and guarantee a comfortable excersizing experience.<br />Handcrafted with love in Serbia.
+          and guarantee a comfortable excersizing experience.<br />Handcrafted
+          with love in Serbia.
         </div>
         <div class="counting-buttons">
           <button onclick="subPieces()" class="minus-button">-</button>
@@ -114,6 +144,11 @@
     </div>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+    <script>
+      const productName = "SINGLE_TOP";
+    </script>
+
     <script src="js/common.js"></script>
     <script src="js/products.js"></script>
     <script src="store.js" async></script>

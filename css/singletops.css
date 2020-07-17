@@ -67,15 +67,19 @@
   font-family: MontserratRegular;
   color: #636677;
 }
-.color-button {
+.color-buttons {
   display: flex;
   flex-direction: row;
 }
-.position {
+.color-button {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   margin: 20px 20px 0px 0px;
+}
+.color-button.selected {
+  outline: 1px solid red;
+  
 }
 .dark-pink-button {
   background-color: #bf7979;

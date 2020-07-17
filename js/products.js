@@ -1,5 +1,60 @@
 var itemHolderCount = 1;
 
+// PRODUCT VARIABLE 'productName' MUST BE SET ON EACH PRODUCT PAGE
+// It must be one of the following:
+const PRODUCTS = {
+  SINGLE_TOP: {
+    colors: {
+      red: {
+        name: "Super Red",
+        images: [
+          "/img/Logo.png",
+          "/img/Logo.png",
+          "/img/Logo.png",
+          "/img/Logo.png"
+        ]
+      },
+      blue: {
+        name: "Cool Blue",
+        images: [
+          "/img/Logo.png",
+          "/img/Logo.png",
+          "/img/Logo.png",
+          "/img/Logo.png"
+        ]
+      },
+      green: {
+        name: "Army Green",
+        images: [
+          "img/Logo.png",
+          "img/Logo.png",
+          "img/Logo.png",
+          "img/Logo.png"
+        ]
+      }
+    }
+  },
+
+  SOME_OTHER_PRODUCT: {
+    colors: {
+      red: {
+        name: "....",
+        images: [
+          /* ... */
+        ]
+      },
+      blue: {
+        name: "...",
+        images: [
+          /* ... */
+        ]
+      }
+    }
+  }
+};
+
+const product = PRODUCTS[productName];
+
 function changeMainPicture(imgs) {
   var expandImg = document.getElementById("expandedImg");
   expandImg.src = imgs.src;
@@ -43,7 +98,7 @@ function imageZoom(img, resultID) {
   lens.addEventListener("mousemove", moveLens);
   img.addEventListener("mousemove", moveLens);
 
-  lens.addEventListener("mouseleave", function () {
+  lens.addEventListener("mouseleave", function() {
     document.getElementById("myresult").style.display = "none";
 
     let lenses = document.getElementsByClassName("img-zoom-lens");
@@ -52,7 +107,7 @@ function imageZoom(img, resultID) {
     }
   });
 
-  lens.addEventListener("mouseenter", function () {
+  lens.addEventListener("mouseenter", function() {
     document.getElementById("myresult").style.display = "block";
   });
 
@@ -104,3 +159,30 @@ function imageZoom(img, resultID) {
 document.getElementById("expandedImg").addEventListener("mouseenter", () => {
   imageZoom(document.getElementById("expandedImg"), "myresult");
 });
+
+const colors = document.querySelectorAll(".color-button");
+
+colors.forEach(c =>
+  c.addEventListener("click", event => {
+    colors.forEach(c => c.classList.remove("selected"));
+    event.target.classList.add("selected");
+
+    const color = event.target.getAttribute("color");
+
+    const colorInfo = product.colors[color];
+
+    const productImagesEl = document.querySelectorAll(
+      ".product-images .product-image"
+    );
+
+    for (let i = 0; i < productImagesEl.length; i++) {
+      productImagesEl[i].src = colorInfo.images[i];
+    }
+
+    // Set shop item color title
+    document.querySelector('.shop-item-color').innerText = colorInfo.name;
+
+    // Set first new image as big image
+    changeMainPicture(productImagesEl[0]);
+  })
+);

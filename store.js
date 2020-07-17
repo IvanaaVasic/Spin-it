@@ -68,7 +68,7 @@ function calculateTotal(cart) {
 function updateTotalPrice() {
   const cart = fetchCartFromStorage();
   const latestTotalPrice = calculateTotal(cart);
-  
+
   document.getElementsByClassName(
     "cart-total-price"
   )[0].innerHTML = `${latestTotalPrice} RSD`;
@@ -127,7 +127,9 @@ function addToCartClicked(event) {
   const color = shopItem.getElementsByClassName("shop-item-color")[0].innerText;
   const price = shopItem.getElementsByClassName("shop-item-price")[0].innerText;
   const size = document.querySelector(".size.selected").innerText;
-  const imageSrc = shopItem.getElementsByClassName("shop-item-image")[0].src;
+  const imageSrc = document.querySelector(".product-images .product-image").src;
+
+  console.log("srccc", imageSrc);
 
   addItemToCart(title, price, imageSrc, color, size);
 }

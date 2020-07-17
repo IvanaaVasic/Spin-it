@@ -99,7 +99,13 @@
   font-family: MontserratRegular;
   color: #bf7979;
   margin: 20px 20px 0px 0px;
+  cursor: pointer;
 }
+
+.size.selected {
+  border: 1px solid red
+}
+
 .product-size a {
   text-decoration: none;
 }

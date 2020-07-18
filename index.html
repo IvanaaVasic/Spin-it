@@ -4,6 +4,7 @@
     <link rel="icon" type="image/x-icon" class="js-site-favicon" href="img/planeta.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/styles.css?13" />
+    <link rel="stylesheet" type="text/css" href="css/store.css?15" />
     <script src="jquery-3.5.1.js"></script>
   </head>
   <body>
@@ -36,22 +37,20 @@
         <a href="https://www.instagram.com/ivanaa.vasic/">
           <img src="img/insta-icon.png" class="insta"
         /></a>
-        <img src="img/shoping-bag-pink.png" class="basket" />
+
         <div class="dropdownS">
           <div class="dropbtnS" onclick="showCart()"></div>
           <div id="myDropdownS" class="dropdown-contentS">
-            <h2 class="section-header">CART</h2>
-            <div class="cart-row">
-              <span class="cart-item cart-header cart-column">ITEM</span>
-              <span class="cart-price cart-header cart-column">PRICE</span>
-              <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            <div class="header-icon-cart">
+              <h2 class="section-header">Your shopping cart</h2>
+              <img class="cart-icon" src="img/shoping-bag-pink.png" />
             </div>
+            <hr class="dotted" />
+
             <div class="cart-items"></div>
-            <div class="cart-total">
-              <strong class="cart-total-title">Total</strong>
-              <span class="cart-total-price">$0</span>
-            </div>
-            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            <button class="btn btn-primary btn-purchase" type="button">
+              Check Out
+            </button>
           </div>
         </div>
       </div>

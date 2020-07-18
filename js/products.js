@@ -35,11 +35,15 @@ const PRODUCTS = {
     }
   },
 
-  SOME_OTHER_PRODUCT: {
+  SINGLE_BOTTOMS: {
     colors: {
-      red: {
-        name: "....",
+      yellow: {
+        name: "Bla Yellow",
         images: [
+          "image1.jpg",
+          "image1.jpg",
+          "image1.jpg",
+          "image1.jpg",
           /* ... */
         ]
       },

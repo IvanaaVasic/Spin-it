@@ -1,9 +1,11 @@
 .navigation-color {
   color: #bf7979;
 }
+
 .navigation-color:hover {
   color: #636677;
 }
+
 .first-part-single-products {
   background-image: url(../img/kockice.png);
   background-size: cover;
@@ -12,12 +14,14 @@
   display: flex;
   flex-direction: row;
 }
+
 .left-part {
   width: 50%;
   margin-top: 180px;
   display: flex;
   flex-direction: row;
 }
+
 .column {
   padding-left: 120px;
   display: flex;
@@ -47,58 +51,72 @@
   font-size: 35px;
   cursor: pointer;
 }
+
 .right-part {
   margin-top: 180px;
   padding-left: 50px;
 }
+
 .cart-image {
   display: none;
 }
+
 .product-name {
   font-family: AwesomeBirds;
   font-weight: normal;
   color: #636677;
   font-size: 100px;
 }
+
 .mobile-header {
   display: none;
 }
+
 .product-color {
   font-family: MontserratRegular;
   color: #636677;
 }
+
 .color-buttons {
   display: flex;
   flex-direction: row;
 }
+
 .color-button {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   margin: 20px 20px 0px 0px;
 }
+
 .color-button.selected {
   outline: 1px solid red;
-  
+
 }
+
 .dark-pink-button {
   background-color: #bf7979;
 }
+
 .light-pink-button {
   background-color: #facacb;
 }
+
 .pink-button {
   background-color: rgb(219, 29, 92);
 }
+
 .size-selection {
   font-family: MontserratRegular;
   color: #636677;
   margin-top: 20px;
 }
+
 .product-size {
   display: flex;
   flex-direction: row;
 }
+
 .size {
   font-family: MontserratRegular;
   color: #bf7979;
@@ -113,30 +131,35 @@
 .product-size a {
   text-decoration: none;
 }
+
 .price {
   font-family: MontserratRegular;
   color: #636677;
   margin-top: 20px;
   font-weight: bold;
 }
+
 .material {
   font-family: MontserratItalic;
   font-weight: bold;
   color: #636677;
   margin-top: 20px;
 }
+
 .material-description {
   font-family: MontserratItalic;
   line-height: 220%;
   color: #636677;
   margin-top: 20px;
 }
+
 .counting-buttons {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
   align-items: center;
 }
+
 .minus-button {
   font-family: MontserratRegular;
   background-color: white;
@@ -150,6 +173,7 @@
   font-size: 25px;
   cursor: pointer;
 }
+
 .plus-button {
   font-family: MontserratRegular;
   background-color: white;
@@ -163,6 +187,7 @@
   font-size: 25px;
   cursor: pointer;
 }
+
 .count-holder {
   font-family: MontserratRegular;
   background-color: white;
@@ -174,6 +199,7 @@
   border-right: none;
   border-left: none;
 }
+
 .addCart {
   width: 150px;
   height: 50px;
@@ -214,10 +240,12 @@
   right: 350px;
   bottom: 50px;
 }
+
 .pair-with {
   background-color: #bf7979;
   height: 500px;
 }
+
 .pair-text {
   font-family: AwesomeBirds;
   font-size: 160px;
@@ -235,6 +263,7 @@
     height: 1600px;
     background-size: contain;
   }
+
   .column {
     padding-left: 20px;
     flex-direction: row;
@@ -242,15 +271,18 @@
     position: absolute;
     right: 5px;
   }
+
   .left-part {
     width: 100%;
     flex-direction: column;
     margin-top: 230px;
   }
+
   .row img {
     cursor: pointer;
     width: 75px;
   }
+
   .row {
     padding: 20px 12px 10px 0px;
   }
@@ -259,25 +291,37 @@
     margin-top: 170px;
     padding-left: 20px;
   }
+
   .pair-text {
     font-size: 100px;
     bottom: 50px;
     padding-left: 60px;
   }
+
   .img-zoom-result {
     display: none;
   }
+
   .img-zoom-lens {
     display: none;
   }
+
   .img-zoom-container {
     display: none;
   }
+
   .web-header {
     display: none;
   }
+
   .mobile-header {
     display: block;
     text-align: center;
+  }
+
+  .product-image {
+
+    height: auto;
+    position: relative;
   }
 }

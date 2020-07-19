@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>Spin It</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      class="js-site-favicon"
+      href="img/planeta.ico"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css?13" />
+    <link rel="stylesheet" type="text/css" href="css/store.css?15" />
+    <link rel="stylesheet" type="text/css" href="css/checkout.css" />
+
+    <script src="js/store.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html"> <img src="img/Logo.png" class="logo" /> </a>
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#products-section">PRODUCTS</a></li>
+          <li><a href="editorial.html">EDITORIAL</a></li>
+          <li><a href="">COMMERCIAL</a></li>
+          <li><a href="#about-us">ABOUT US</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-media-icon">
+        <div class="dropdown">
+          <div class="dropbtn"></div>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="#products-section">Products</a>
+            <a href="editorial.html">Editorial</a>
+            <a href="#">Commercial</a>
+            <a href="#about-us">About us</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <img src="img/fb-icon.png" class="face" />
+        <a href="https://www.instagram.com/ivanaa.vasic/">
+          <img src="img/insta-icon.png" class="insta"
+        /></a>
+
+        <div class="dropdownS">
+          <div class="dropbtnS" onclick="showCart()"></div>
+          <div id="myDropdownS" class="dropdown-contentS">
+            <div class="header-icon-cart">
+              <h2 class="section-header">Your shopping cart</h2>
+              <img class="cart-icon" src="img/shoping-bag-pink.png" />
+            </div>
+            <hr class="dotted" />
+
+            <div class="cart-items"></div>
+            <button class="btn btn-primary btn-purchase" type="button">
+              Check Out
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="checkout-holder">
+      <div class="cart-part">
+        <div class="header-icon-cart header-cart-left">
+          <h2 class="section-header">Your shopping cart</h2>
+          <img class="cart-icon" src="img/shoping-bag-pink.png" />
+        </div>
+        <hr class="dotted" />
+        <div class="checkout-items"></div>
+      </div>
+      <div class="info-part"></div>
+    </div>
+    <script src="js/common.js"></script>
+
+    <script src="js/checkout.js" async></script>
+  </body>
+</html>

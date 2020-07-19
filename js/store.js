@@ -102,14 +102,14 @@ function ready() {
     .addEventListener("click", purchaseClicked);
 }
 
-function purchaseClicked() {
-  alert("Thank you for your purchase");
-  var cartItems = document.getElementsByClassName("cart-items")[0];
-  while (cartItems.hasChildNodes()) {
-    cartItems.removeChild(cartItems.firstChild);
-  }
-  updateCartTotal();
-}
+// function purchaseClicked() {
+//   alert("Thank you for your purchase");
+//   var cartItems = document.getElementsByClassName("cart-items")[0];
+//   while (cartItems.hasChildNodes()) {
+//     cartItems.removeChild(cartItems.firstChild);
+//   }
+//   updateCartTotal();
+// }
 
 function quantityChanged(event) {
   var input = event.target;
@@ -128,8 +128,6 @@ function addToCartClicked(event) {
   const price = shopItem.getElementsByClassName("shop-item-price")[0].innerText;
   const size = document.querySelector(".size.selected").innerText;
   const imageSrc = document.querySelector(".product-images .product-image").src;
-
-  console.log("srccc", imageSrc);
 
   addItemToCart(title, price, imageSrc, color, size);
 }

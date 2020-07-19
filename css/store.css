@@ -3,129 +3,134 @@
     font-weight: normal;
     color: #636677;
     margin-bottom: 20px;
-  }
-  .header-icon-cart {
+}
+
+.header-icon-cart {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .cart-icon {
+}
+
+.cart-icon {
     position: relative;
     bottom: 15px;
     left: 20px;
-  }
-  .dotted {
+}
+
+.dotted {
     border: 1px dotted #636677;
     border-style: none none dotted;
     color: #fff;
     background-color: #fff;
-  }
-  
-  .btn {
+}
+
+.btn {
     cursor: pointer;
-  }
-  
-  .btn-primary {
+}
+
+.btn-primary {
     width: 100%;
     color: white;
     background-color: #e7b1af;
     border: none;
     font-family: MontserratItalic;
     padding: 10px 0px 10px 0px;
-  }
-  
-  .shop-item {
+}
+
+.shop-item {
     margin: 30px;
-  }
-  
-  .shop-item-title {
+}
+
+.shop-item-title {
     margin-bottom: 15px;
-  }
-  
-  .shop-item-details {
+}
+
+.shop-item-details {
     display: flex;
     align-items: center;
     padding: 5px;
-  }
-  
-  .shop-item-price {
+}
+
+.shop-item-price {
     flex-grow: 1;
     color: #333;
-  }
-  
-  .shop-items {
+}
+
+.shop-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  
-  .cart-header {
+}
+
+.cart-header {
     font-weight: bold;
     font-size: 1.25em;
     color: #333;
-  }
-  
-  .cart-column {
+}
+
+.cart-column {
     display: flex;
     align-items: center;
     padding-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-  }
-  
-  .cart-row {
+}
+
+.cart-row {
     display: flex;
     border: 1px dotted #636677;
     border-style: none none dotted;
-  }
-  
-  .cart-price {
+}
+
+.cart-price {
     font-family: MontserratRegular;
     font-size: 1.2em;
     color: #636677;
     width: 120px;
     align-items: flex-end;
-  }
-  
-  .cart-quantity {
+}
+
+.cart-quantity {
     align-items: flex-start;
-  }
-  .cart-title-color {
+}
+
+.cart-title-color {
     display: flex;
     flex-direction: column;
     width: 150px;
     margin-top: 30px;
-  }
-  
-  .cart-item-title {
+}
+
+.cart-item-title {
     color: #636677;
     font-size: 1.2em;
     font-family: MontserratRegular;
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  .cart-item-color {
+}
+
+.cart-item-color {
     color: #636677;
     font-family: MontserratRegular;
     margin-bottom: 10px;
     font-size: 13px;
-  }
-  
-  .cart-item-image {
+}
+
+.cart-item-image {
     width: 75px;
     height: auto;
-  }
-  
-  .btn-danger {
+}
+
+.btn-danger {
     color: #636677;
     border: none;
     font-weight: bold;
     font-family: MontserratRegular;
-  }
-  
-  .cart-quantity-input {
+}
+
+.cart-quantity-input {
     width: 50px;
     border-radius: 10px;
     border: 1px solid black;
@@ -135,45 +140,53 @@
     text-align: center;
     font-size: 18px;
     margin-left: 10px;
-  }
-  
-  .cart-row:last-child {
+}
+
+.cart-row:last-child {
     border: 1px dotted #636677;
     border-style: none none dotted;
     color: #fff;
-  }
-  
-  .cart-row:last-child .cart-column {
+}
+
+.cart-row:last-child .cart-column {
     border: none;
-  }
-  
-  .cart-total {
+}
+
+.cart-total {
     text-align: start;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     border: 1px dotted #636677;
     border-style: none none dotted;
-  }
-  
-  .cart-total-title {
+}
+
+.cart-total-title {
     font-family: MontserratItalic;
     font-weight: normal;
     color: #636677;
     margin-right: 20px;
     margin-bottom: 10px;
-  }
-  
-  .cart-total-price {
+}
+
+.cart-total-price {
     font-family: MontserratItalic;
     font-weight: normal;
     color: #636677;
     font-size: 1.1em;
     margin-bottom: 10px;
-  }
-  
-  .btn-purchase {
+}
+
+.btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 22px;
-  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 835px) {
+    .dropdown-contentS {
+        right: 10px;
+        width: 320px;
+    }
+}

@@ -168,6 +168,37 @@ const PRODUCTS = {
         ]
       }
     }
+  },
+  BODY_SUIT: {
+    colors: {
+      darkGreen: {
+        name: "Maslinasto zelena",
+        images: [
+          "BodyNakedBack/Maslinasta/Studio2-4498.jpg",
+          "BodyNakedBack/Maslinasta/Studio2-4504.jpg",
+          "BodyNakedBack/Maslinasta/Studio2-4509.jpg",
+          "BodyNakedBack/Maslinasta/Studio2-4513.jpg"
+        ]
+      },
+      blue: {
+        name: "Plava",
+        images: [
+          "BodyNakedBack/Plava/Studio1-4679.jpg",
+          "BodyNakedBack/Plava/Studio1-4681.jpg",
+          "BodyNakedBack/Plava/Studio1-4684.jpg",
+          "BodyNakedBack/Plava/Studio1-09986.jpg"
+        ]
+      },
+      darkBlue: {
+        name: "Teget",
+        images: [
+          "BodyNakedBack/Teget/main_picture_NakedBack.jpg",
+          "BodyNakedBack/Teget/Studio1-09875.jpg",
+          "BodyNakedBack/Teget/Studio1-09887.jpg",
+          "BodyNakedBack/Teget/Studio1-09912.jpg"
+        ]
+      }
+    }
   }
 };
 

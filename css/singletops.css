@@ -95,15 +95,15 @@
 }
 
 .dark-pink-button {
-  background-color: #bf7979;
+  background-color: rgb(143, 95, 143);
 }
 
 .light-pink-button {
-  background-color: #facacb;
+  background-color: rgb(69, 199, 238);
 }
 
 .pink-button {
-  background-color: rgb(219, 29, 92);
+  background-color: rgb(44, 44, 160);
 }
 
 .size-selection {
@@ -257,6 +257,8 @@
   -webkit-text-fill-color: transparent;
 }
 
+
+
 @media only screen and (max-width: 835px) {
   .first-part-single-products {
     flex-direction: column;
@@ -267,7 +269,7 @@
   .column {
     padding-left: 20px;
     flex-direction: row;
-    margin-top: 650px;
+    margin-top: 670px;
     position: absolute;
     right: 5px;
   }
@@ -317,6 +319,7 @@
   .mobile-header {
     display: block;
     text-align: center;
+    padding-bottom: 20px;
   }
 
   .product-image {
@@ -324,4 +327,9 @@
     height: auto;
     position: relative;
   }
+}
+
+#expandedImg {
+  max-width: 450px;
+
 }

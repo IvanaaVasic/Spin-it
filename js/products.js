@@ -3,33 +3,33 @@ var itemHolderCount = 1;
 // PRODUCT VARIABLE 'productName' MUST BE SET ON EACH PRODUCT PAGE
 // It must be one of the following:
 const PRODUCTS = {
-  SINGLE_TOP: {
+  ASYMETRIC_TOP: {
     colors: {
       red: {
-        name: "Super Red",
+        name: "Lila",
         images: [
-          "/img/Logo.png",
-          "/img/Logo.png",
-          "/img/Logo.png",
-          "/img/Logo.png"
+          "tops/Asymetric/Lila/Studio2-4751.jpg",
+          "tops/Asymetric/Lila/Studio2-4768.jpg",
+          "tops/Asymetric/Lila/Studio2-4771.jpg",
+          "tops/Asymetric/Lila/Studio2-4806.jpg"
         ]
       },
       blue: {
-        name: "Cool Blue",
+        name: "Plava",
         images: [
-          "/img/Logo.png",
-          "/img/Logo.png",
-          "/img/Logo.png",
-          "/img/Logo.png"
+          "tops/Asymetric/Plava/Studio1-00115.jpg",
+          "tops/Asymetric/Plava/Studio1-00113.jpg",
+          "tops/Asymetric/Plava/Studio1-00127.jpg",
+          "tops/Asymetric/Plava/Studio1--4.jpg"
         ]
       },
       green: {
-        name: "Army Green",
+        name: "Teget",
         images: [
-          "img/Logo.png",
-          "img/Logo.png",
-          "img/Logo.png",
-          "img/Logo.png"
+          "tops/Asymetric/Teget/Studio1-9715.jpg",
+          "tops/Asymetric/Teget/Studio1-9719.jpg",
+          "tops/Asymetric/Teget/Studio1-9729.jpg",
+          "tops/Asymetric/Teget/Studio1-9733.jpg"
         ]
       }
     }
@@ -43,7 +43,7 @@ const PRODUCTS = {
           "image1.jpg",
           "image1.jpg",
           "image1.jpg",
-          "image1.jpg",
+          "image1.jpg"
           /* ... */
         ]
       },
@@ -184,7 +184,7 @@ colors.forEach(c =>
     }
 
     // Set shop item color title
-    document.querySelector('.shop-item-color').innerText = colorInfo.name;
+    document.querySelector(".shop-item-color").innerText = colorInfo.name;
 
     // Set first new image as big image
     changeMainPicture(productImagesEl[0]);

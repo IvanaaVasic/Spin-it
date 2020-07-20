@@ -56,6 +56,118 @@ const PRODUCTS = {
         ]
       }
     }
+  },
+
+  CLASSIC_TOP: {
+    colors: {
+      violet: {
+        name: "Lila",
+        images: [
+          "tops/Classic/Lila/Studio2-4690.jpg",
+          "tops/Classic/Lila/Studio2-4693.jpg",
+          "tops/Classic/Lila/Studio2-4696.jpg",
+          "tops/Classic/Lila/Studio2-4720.jpg"
+        ]
+      },
+      nude: {
+        name: "Nude",
+        images: [
+          "tops/Classic/Nude/Studio1-00419.jpg",
+          "tops/Classic/Nude/Studio1-00451.jpg",
+          "tops/Classic/Nude/Studio1--8.jpg",
+          "tops/Classic/Nude/Studio1--9.jpg"
+        ]
+      },
+      blue: {
+        name: "Plava",
+        images: [
+          "tops/Classic/Plava/Studio1-9541.jpg",
+          "tops/Classic/Plava/Studio1-9560.jpg",
+          "tops/Classic/Plava/Studio1-9571.jpg",
+          "tops/Classic/Plava/Studio1-9627.jpg"
+        ]
+      },
+      pink: {
+        name: "Roze",
+        images: [
+          "tops/Classic/Roze/Studio2-4346.jpg",
+          "tops/Classic/Roze/Studio2-4347.jpg",
+          "tops/Classic/Roze/Studio2-4351.jpg",
+          "tops/Classic/Roze/Studio2-4372.jpg"
+        ]
+      }
+    }
+  },
+  HEART_TOP: {
+    colors: {
+      violet: {
+        name: "Lila",
+        images: [
+          "tops/Heart/Lila/Studio2-4644.jpg",
+          "tops/Heart/Lila/Studio2-4651.jpg",
+          "tops/Heart/Lila/Studio2-4652.jpg",
+          "tops/Heart/Lila/Studio2-4655.jpg"
+        ]
+      },
+      nude: {
+        name: "Nude",
+        images: [
+          "tops/Heart/Nude/Studio2-4603.jpg",
+          "tops/Heart/Nude/Studio2-4604.jpg",
+          "tops/Heart/Nude/Studio2-4606.jpg",
+          "tops/Heart/Nude/Studio2-4609.jpg"
+        ]
+      },
+      blue: {
+        name: "Plava",
+        images: [
+          "tops/Heart/Plava/Studio2-4478.jpg",
+          "tops/Heart/Plava/Studio2-4481.jpg",
+          "tops/Heart/Plava/Studio2-4486.jpg",
+          "tops/Heart/Plava/Studio2-4488.jpg"
+        ]
+      },
+      pink: {
+        name: "Roze",
+        images: [
+          "tops/Heart/Roze/Studio1-00259.jpg",
+          "tops/Heart/Roze/Studio1-00263.jpg",
+          "tops/Heart/Roze/Studio1-00273.jpg",
+          "tops/Heart/Roze/Studio1-00274.jpg"
+        ]
+      }
+    }
+  },
+  SIMPLICITY_TOP: {
+    colors: {
+      black: {
+        name: "Crna",
+        images: [
+          "tops/Simplicity/Crni/Studio1-00342.jpg",
+          "tops/Simplicity/Crni/Studio1-4413.jpg",
+          "tops/Simplicity/Crni/Studio1-4415.jpg",
+          "tops/Simplicity/Crni/Studio1-4422.jpg"
+        ]
+      },
+      blue: {
+        name: "Plava",
+        images: [
+          "tops/Simplicity/Plava/Studio1-09808.jpg",
+          "tops/Simplicity/Plava/Studio1-09824.jpg",
+          "tops/Simplicity/Plava/Studio1-09852.jpg",
+          "tops/Simplicity/Plava/Studio1--10.jpg"
+        ]
+      },
+      pink: {
+        name: "Roze",
+        images: [
+          "tops/Simplicity/Roze/Studio2-4393.jpg",
+          "tops/Simplicity/Roze/Studio2-4397.jpg",
+          "tops/Simplicity/Roze/Studio2-4399.jpg",
+          "tops/Simplicity/Roze/Studio2-4400.jpg"
+        ]
+      }
+    }
   }
 };
 

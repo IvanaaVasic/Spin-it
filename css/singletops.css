@@ -98,16 +98,24 @@
   background-color: rgb(143, 95, 143);
 }
 
-.light-pink-button {
+.blue-button {
   background-color: rgb(69, 199, 238);
 }
 
-.pink-button {
+.dark-blue-button {
   background-color: rgb(44, 44, 160);
 }
 
 .black-button {
   background-color: black;
+}
+
+.nude-button {
+  background-color: rgb(211, 196, 171);
+}
+
+.pink-button {
+  background-color: pink;
 }
 
 .size-selection {

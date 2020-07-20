@@ -5,7 +5,7 @@ var itemHolderCount = 1;
 const PRODUCTS = {
   ASYMETRIC_TOP: {
     colors: {
-      red: {
+      violet: {
         name: "Lila",
         images: [
           "tops/Asymetric/Lila/Studio2-4751.jpg",
@@ -17,13 +17,13 @@ const PRODUCTS = {
       blue: {
         name: "Plava",
         images: [
-          "tops/Asymetric/Plava/Studio1-00115.jpg",
+          "tops/Asymetric/Plava/Studio1-4.jpg",
           "tops/Asymetric/Plava/Studio1-00113.jpg",
-          "tops/Asymetric/Plava/Studio1-00127.jpg",
-          "tops/Asymetric/Plava/Studio1--4.jpg"
+          "tops/Asymetric/Plava/Studio1-00124.jpg",
+          "tops/Asymetric/Plava/Studio1-00127-2.jpg"
         ]
       },
-      green: {
+      darkBlue: {
         name: "Teget",
         images: [
           "tops/Asymetric/Teget/Studio1-9715.jpg",
@@ -35,22 +35,24 @@ const PRODUCTS = {
     }
   },
 
-  SINGLE_BOTTOMS: {
+  BASIC_TOP: {
     colors: {
-      yellow: {
-        name: "Bla Yellow",
+      black: {
+        name: "Crna",
         images: [
-          "image1.jpg",
-          "image1.jpg",
-          "image1.jpg",
-          "image1.jpg"
-          /* ... */
+          "tops/Basic/Crna/Studio2-4540.jpg",
+          "tops/Basic/Crna/Studio2-4565.jpg",
+          "tops/Basic/Crna/Studio2-4568.jpg",
+          "tops/Basic/Crna/Studio2-4571.jpg"
         ]
       },
-      blue: {
-        name: "...",
+      violet: {
+        name: "Lila",
         images: [
-          /* ... */
+          "tops/Basic/Lila/Studio1-5.jpg",
+          "tops/Basic/Lila/Studio1-4735.jpg",
+          "tops/Basic/Lila/Studio1-4739.jpg",
+          "tops/Basic/Lila/Studio1-4787.jpg"
         ]
       }
     }

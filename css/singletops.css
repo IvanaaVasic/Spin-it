@@ -106,6 +106,10 @@
   background-color: rgb(44, 44, 160);
 }
 
+.black-button {
+  background-color: black;
+}
+
 .size-selection {
   font-family: MontserratRegular;
   color: #636677;

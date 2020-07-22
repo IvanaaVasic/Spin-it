@@ -380,6 +380,38 @@ const PRODUCTS = {
         ]
       }
     }
+  },
+
+  POLE_DANCE_SHORTS: {
+    colors: {
+      darkGreen: {
+        name: "Olive Green",
+        images: [
+          "bottoms/PoleDanceShorts/Maslinasta/Studio2-4665.jpg",
+          "bottoms/PoleDanceShorts/Maslinasta/Studio2-4669.jpg",
+          "bottoms/PoleDanceShorts/Maslinasta/Studio2-4672.jpg",
+          "bottoms/PoleDanceShorts/Maslinasta/Studio2-4673.jpg"
+        ]
+      },
+      blue: {
+        name: "Aquamarine",
+        images: [
+          "bottoms/PoleDanceShorts/Plava/Studio2-4797.jpg",
+          "bottoms/PoleDanceShorts/Plava/Studio2-4800.jpg",
+          "bottoms/PoleDanceShorts/Plava/Studio2-4802.jpg",
+          "bottoms/PoleDanceShorts/Plava/Studio2-4804.jpg"
+        ]
+      },
+      black: {
+        name: "Black Pearl",
+        images: [
+          "bottoms/PoleDanceShorts/Crna/Studio2-4823.jpg",
+          "bottoms/PoleDanceShorts/Crna/Studio2-4828.jpg",
+          "bottoms/PoleDanceShorts/Crna/Studio2-4833.jpg",
+          "bottoms/PoleDanceShorts/Crna/Studio2-4834.jpg"
+        ]
+      }
+    }
   }
 };
 

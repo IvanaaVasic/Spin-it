@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <title>Spin It</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      class="js-site-favicon"
+      href="img/planeta.ico"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css?15" />
+    <link rel="stylesheet" type="text/css" href="css/singletops.css?15" />
+    <link rel="stylesheet" type="text/css" href="css/store.css?15" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html"> <img src="img/Logo.png" class="logo" /> </a>
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html" class="navigation-color">HOME</a></li>
+          <li>
+            <a href="#products-section" class="navigation-color">PRODUCTS</a>
+          </li>
+          <li>
+            <a href="editorial.html" class="navigation-color">EDITORIAL</a>
+          </li>
+          <li><a href="" class="navigation-color">COMMERCIAL</a></li>
+          <li><a href="#about-us" class="navigation-color">ABOUT US</a></li>
+          <li><a href="" class="navigation-color">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-media-icon">
+        <div class="dropdown">
+          <div class="dropbtn"></div>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="#products-section">Products</a>
+            <a href="editorial.html">Editorial</a>
+            <a href="#">Commercial</a>
+            <a href="#about-us">About us</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <img src="img/fb-icon.png" class="face" />
+        <img src="img/insta-icon.png" class="insta" />
+
+        <div class="dropdownS">
+          <div class="dropbtnS" onclick="showCart()"></div>
+          <div id="myDropdownS" class="dropdown-contentS">
+            <div class="header-icon-cart">
+              <h2 class="section-header">Your shopping cart</h2>
+              <img class="cart-icon" src="img/shoping-bag-pink.png" />
+            </div>
+            <hr class="dotted" />
+
+            <div class="cart-items"></div>
+            <a
+              href="checkout.html"
+              class="btn btn-primary btn-purchase"
+              type="button"
+            >
+              Check Out
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="first-part-single-products">
+      <div class="left-part">
+        <h1 class="product-name mobile-header">Perfect waist</h1>
+        <div class="column product-images">
+          <div class="row">
+            <img
+              class="product-image"
+              src="bottoms/Helanke/PerfectWaist/crne/Studio2-4773.jpg"
+              onclick="changeMainPicture(this);"
+            />
+          </div>
+          <div class="row">
+            <img
+              class="product-image"
+              src="bottoms/Helanke/PerfectWaist/crne/Studio2-4776.jpg"
+              onclick="changeMainPicture(this);"
+            />
+          </div>
+          <div class="row">
+            <img
+              class="product-image"
+              src="bottoms/Helanke/PerfectWaist/crne/Studio2-4779.jpg"
+              onclick="changeMainPicture(this);"
+            />
+          </div>
+          <div class="row">
+            <img
+              class="product-image"
+              src="bottoms/Helanke/PerfectWaist/crne/Studio2-4781.jpg"
+              onclick="changeMainPicture(this);"
+            />
+          </div>
+        </div>
+
+        <div class="container">
+          <img
+            src="bottoms/Helanke/PerfectWaist/crne/Studio2-4773.jpg"
+            id="expandedImg"
+            style="width: 99%;"
+          />
+        </div>
+      </div>
+      <div class="right-part">
+        <div id="myresult" class="img-zoom-result"></div>
+        <h1 class="product-name web-header shop-item-title">Perfect waist</h1>
+        <div class="product-color">
+          Color: <span class="shop-item-color">Black Pearl</span>
+        </div>
+        <div class="color-buttons">
+          <div
+            class="black-button red color-button selected"
+            color="black"
+          ></div>
+          <div
+            class="dark-green-button blue color-button"
+            color="darkGreen"
+          ></div>
+        </div>
+        <div class="size-selection">Select your size:</div>
+        <div class="product-size">
+          <div class="size selected">XS</div>
+          <div class="size">S</div>
+          <div class="size">M</div>
+        </div>
+        <div class="price shop-item-price">3.600 RSD</div>
+        <div class="material">Material: 80% polyester, 20% cotton</div>
+        <div class="material-description">
+          All our materials are chosem with the utmost care<br />
+          and guarantee a comfortable excersizing experience.<br />Handcrafted
+          with love in Serbia.
+        </div>
+        <div class="counting-buttons">
+          <button onclick="subPieces()" class="minus-button">-</button>
+          <div class="count-holder">1</div>
+          <button onclick="addPieces()" class="plus-button">+</button>
+          <button class="addCart shop-item-button">
+            <img src="img/shoping-cart.png" />Add to cart
+          </button>
+          <img src="img/fav.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-with">
+      <div class="pair-text">Pair it with</div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+    <script>
+      const productName = "PERFECT_WAIST";
+    </script>
+
+    <script src="js/common.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/store.js"></script>
+  </body>
+</html>

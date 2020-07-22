@@ -334,6 +334,29 @@ const PRODUCTS = {
         ]
       }
     }
+  },
+
+  PERFECT_WAIST: {
+    colors: {
+      black: {
+        name: "Black Pearl",
+        images: [
+          "bottoms/Helanke/PerfectWaist/crne/Studio2-4773.jpg",
+          "bottoms/Helanke/PerfectWaist/crne/Studio2-4776.jpg",
+          "bottoms/Helanke/PerfectWaist/crne/Studio2-4779.jpg",
+          "bottoms/Helanke/PerfectWaist/crne/Studio2-4781.jpg"
+        ]
+      },
+      darkGreen: {
+        name: "Olive Green",
+        images: [
+          "bottoms/Helanke/PerfectWaist/Maslina/Studio2-4613.jpg",
+          "bottoms/Helanke/PerfectWaist/Maslina/Studio2-4621.jpg",
+          "bottoms/Helanke/PerfectWaist/Maslina/Studio2-4622.jpg",
+          "bottoms/Helanke/PerfectWaist/Maslina/Studio2-4625.jpg"
+        ]
+      }
+    }
   }
 };
 

@@ -320,10 +320,18 @@
     padding-left: 20px;
   }
 
+  .product-name {
+    font-size: 80px;
+  }
+
   .pair-text {
     font-size: 100px;
     bottom: 50px;
     padding-left: 60px;
+  }
+
+  #myresult {
+    display: none;
   }
 
   .img-zoom-result {
@@ -371,4 +379,8 @@
     padding: 0px 30px 23px 0px;
   }
 
+  .img-zoom-result {
+    top: 200px;
+    right: 600px;
+  }
 }

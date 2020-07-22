@@ -6,7 +6,7 @@ const PRODUCTS = {
   ASYMETRIC_TOP: {
     colors: {
       violet: {
-        name: "Lila",
+        name: "Lavander",
         images: [
           "tops/Asymetric/Lila/Studio2-4751.jpg",
           "tops/Asymetric/Lila/Studio2-4768.jpg",
@@ -15,7 +15,7 @@ const PRODUCTS = {
         ]
       },
       blue: {
-        name: "Plava",
+        name: "Aquamarine",
         images: [
           "tops/Asymetric/Plava/Studio1-4.jpg",
           "tops/Asymetric/Plava/Studio1-00113.jpg",
@@ -24,7 +24,7 @@ const PRODUCTS = {
         ]
       },
       darkBlue: {
-        name: "Teget",
+        name: "Midnight Blue",
         images: [
           "tops/Asymetric/Teget/Studio1-9715.jpg",
           "tops/Asymetric/Teget/Studio1-9719.jpg",
@@ -38,7 +38,7 @@ const PRODUCTS = {
   BASIC_TOP: {
     colors: {
       black: {
-        name: "Crna",
+        name: "Black Pearl",
         images: [
           "tops/Basic/Crna/Studio2-4540.jpg",
           "tops/Basic/Crna/Studio2-4565.jpg",
@@ -47,7 +47,7 @@ const PRODUCTS = {
         ]
       },
       violet: {
-        name: "Lila",
+        name: "Lavander",
         images: [
           "tops/Basic/Lila/Studio1-5.jpg",
           "tops/Basic/Lila/Studio1-4735.jpg",
@@ -61,7 +61,7 @@ const PRODUCTS = {
   CLASSIC_TOP: {
     colors: {
       violet: {
-        name: "Lila",
+        name: "Lavander",
         images: [
           "tops/Classic/Lila/Studio2-4690.jpg",
           "tops/Classic/Lila/Studio2-4693.jpg",
@@ -70,16 +70,16 @@ const PRODUCTS = {
         ]
       },
       nude: {
-        name: "Nude",
+        name: "Nude Pink",
         images: [
           "tops/Classic/Nude/Studio1-00419.jpg",
           "tops/Classic/Nude/Studio1-00451.jpg",
-          "tops/Classic/Nude/Studio1--8.jpg",
+          "tops/Classic/Nude/NNS00462.jpg",
           "tops/Classic/Nude/Studio1--9.jpg"
         ]
       },
       blue: {
-        name: "Plava",
+        name: "Aquamarine",
         images: [
           "tops/Classic/Plava/Studio1-9541.jpg",
           "tops/Classic/Plava/Studio1-9560.jpg",
@@ -88,7 +88,7 @@ const PRODUCTS = {
         ]
       },
       pink: {
-        name: "Roze",
+        name: "Hot Pink",
         images: [
           "tops/Classic/Roze/Studio2-4346.jpg",
           "tops/Classic/Roze/Studio2-4347.jpg",
@@ -101,7 +101,7 @@ const PRODUCTS = {
   HEART_TOP: {
     colors: {
       violet: {
-        name: "Lila",
+        name: "Lavander",
         images: [
           "tops/Heart/Lila/Studio2-4644.jpg",
           "tops/Heart/Lila/Studio2-4651.jpg",
@@ -110,7 +110,7 @@ const PRODUCTS = {
         ]
       },
       nude: {
-        name: "Nude",
+        name: "Nude Pink",
         images: [
           "tops/Heart/Nude/Studio2-4603.jpg",
           "tops/Heart/Nude/Studio2-4604.jpg",
@@ -119,7 +119,7 @@ const PRODUCTS = {
         ]
       },
       blue: {
-        name: "Plava",
+        name: "Aquamarine",
         images: [
           "tops/Heart/Plava/Studio2-4478.jpg",
           "tops/Heart/Plava/Studio2-4481.jpg",
@@ -128,12 +128,12 @@ const PRODUCTS = {
         ]
       },
       pink: {
-        name: "Roze",
+        name: "Hot Pink",
         images: [
-          "tops/Heart/Roze/Studio1-00259.jpg",
-          "tops/Heart/Roze/Studio1-00263.jpg",
-          "tops/Heart/Roze/Studio1-00273.jpg",
-          "tops/Heart/Roze/Studio1-00274.jpg"
+          "tops/Heart/Roze/Kaver-00262.jpg",
+          "tops/Heart/Roze/Kaver-00265.jpg",
+          "tops/Heart/Roze/Kaver-00268.jpg",
+          "tops/Heart/Roze/Studio1-00263.jpg"
         ]
       }
     }
@@ -141,7 +141,7 @@ const PRODUCTS = {
   SIMPLICITY_TOP: {
     colors: {
       black: {
-        name: "Crna",
+        name: "Black Pearl",
         images: [
           "tops/Simplicity/Crni/Studio1-00342.jpg",
           "tops/Simplicity/Crni/Studio1-4413.jpg",
@@ -150,7 +150,7 @@ const PRODUCTS = {
         ]
       },
       blue: {
-        name: "Plava",
+        name: "Aquamarine",
         images: [
           "tops/Simplicity/Plava/Studio1-09808.jpg",
           "tops/Simplicity/Plava/Studio1-09824.jpg",
@@ -159,7 +159,7 @@ const PRODUCTS = {
         ]
       },
       pink: {
-        name: "Roze",
+        name: "Hot Pink",
         images: [
           "tops/Simplicity/Roze/Studio2-4393.jpg",
           "tops/Simplicity/Roze/Studio2-4397.jpg",
@@ -172,7 +172,7 @@ const PRODUCTS = {
   BODY_SUIT: {
     colors: {
       darkGreen: {
-        name: "Maslinasto zelena",
+        name: "Olive Green",
         images: [
           "BodyNakedBack/Maslinasta/Studio2-4498.jpg",
           "BodyNakedBack/Maslinasta/Studio2-4504.jpg",
@@ -181,7 +181,7 @@ const PRODUCTS = {
         ]
       },
       blue: {
-        name: "Plava",
+        name: "Aquamarine",
         images: [
           "BodyNakedBack/Plava/Studio1-4679.jpg",
           "BodyNakedBack/Plava/Studio1-4681.jpg",
@@ -190,7 +190,7 @@ const PRODUCTS = {
         ]
       },
       darkBlue: {
-        name: "Teget",
+        name: "Midnight Blue",
         images: [
           "BodyNakedBack/Teget/main_picture_NakedBack.jpg",
           "BodyNakedBack/Teget/Studio1-09875.jpg",

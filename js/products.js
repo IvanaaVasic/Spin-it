@@ -199,6 +199,141 @@ const PRODUCTS = {
         ]
       }
     }
+  },
+  DANCE_EXOTIC: {
+    colors: {
+      violet: {
+        name: "Lavander",
+        images: [
+          "bottoms/underpants/PoleDanceExotic/Lila/Studio2-4645.jpg",
+          "bottoms/underpants/PoleDanceExotic/Lila/Studio2-4651.jpg",
+          "bottoms/underpants/PoleDanceExotic/Lila/Studio2-4656.jpg",
+          "bottoms/underpants/PoleDanceExotic/Lila/Studio2-4690.jpg"
+        ]
+      },
+      nude: {
+        name: "Nude Pink",
+        images: [
+          "bottoms/underpants/PoleDanceExotic/Nude/Studio2-4434.jpg",
+          "bottoms/underpants/PoleDanceExotic/Nude/Studio2-4442.jpg",
+          "bottoms/underpants/PoleDanceExotic/Nude/Studio2-4450.jpg",
+          "bottoms/underpants/PoleDanceExotic/Nude/Studio2-4460.jpg"
+        ]
+      },
+      blue: {
+        name: "Aquamarine",
+        images: [
+          "bottoms/underpants/PoleDanceExotic/Plava/Kaver-09824.jpg",
+          "bottoms/underpants/PoleDanceExotic/Plava/Studio1-09809.jpg",
+          "bottoms/underpants/PoleDanceExotic/Plava/Studio1-09816.jpg",
+          "bottoms/underpants/PoleDanceExotic/Plava/Studio1-09857.jpg"
+        ]
+      },
+      pink: {
+        name: "Hot Pink",
+        images: [
+          "bottoms/underpants/PoleDanceExotic/Roze/Studio2-4755.jpg",
+          "bottoms/underpants/PoleDanceExotic/Roze/Studio2-4756.jpg",
+          "bottoms/underpants/PoleDanceExotic/Roze/Studio2-4760.jpg",
+          "bottoms/underpants/PoleDanceExotic/Roze/Studio2-4762.jpg"
+        ]
+      },
+      black: {
+        name: "Black Pearl",
+        images: [
+          "bottoms/underpants/PoleDanceExotic/Crna/Studio1-7.jpg",
+          "bottoms/underpants/PoleDanceExotic/Crna/Studio1-9.jpg",
+          "bottoms/underpants/PoleDanceExotic/Crna/Studio1-4427.jpg",
+          "bottoms/underpants/PoleDanceExotic/Crna/Studio1-4430.jpg"
+        ]
+      },
+      darkGreen: {
+        name: "Olive Green",
+        images: [
+          "bottoms/underpants/PoleDanceExotic/Maslina/Studio2-4808.jpg",
+          "bottoms/underpants/PoleDanceExotic/Maslina/Studio2-4815.jpg",
+          "bottoms/underpants/PoleDanceExotic/Maslina/Studio2-4818.jpg",
+          "bottoms/underpants/PoleDanceExotic/Maslina/Studio2-4822.jpg"
+        ]
+      },
+      darkBlue: {
+        name: "Midnight Blue",
+        images: [
+          "bottoms/underpants/PoleDanceExotic/Teget/Studio1-9713.jpg",
+          "bottoms/underpants/PoleDanceExotic/Teget/Studio1-9715.jpg",
+          "bottoms/underpants/PoleDanceExotic/Teget/Studio1-9729.jpg",
+          "bottoms/underpants/PoleDanceExotic/Teget/Studio1-9733.jpg"
+        ]
+      }
+    }
+  },
+
+  DANCE_COMFORT: {
+    colors: {
+      violet: {
+        name: "Lavander",
+        images: [
+          "bottoms/underpants/PoleDanceComfort/Lila/Studio1-00481.jpg",
+          "bottoms/underpants/PoleDanceComfort/Lila/Studio1-00503.jpg",
+          "bottoms/underpants/PoleDanceComfort/Lila/Studio1-00518.jpg",
+          "bottoms/underpants/PoleDanceComfort/Lila/Studio1-00526.jpg"
+        ]
+      },
+      nude: {
+        name: "Nude Pink",
+        images: [
+          "bottoms/underpants/PoleDanceComfort/Nude/Studio2-4633.jpg",
+          "bottoms/underpants/PoleDanceComfort/Nude/Studio2-4636.jpg",
+          "bottoms/underpants/PoleDanceComfort/Nude/Studio2-4637.jpg",
+          "bottoms/underpants/PoleDanceComfort/Nude/Studio2-4639.jpg"
+        ]
+      },
+      blue: {
+        name: "Aquamarine",
+        images: [
+          "bottoms/underpants/PoleDanceComfort/Plava/Studio2-4478.jpg",
+          "bottoms/underpants/PoleDanceComfort/Plava/Studio2-4481.jpg",
+          "bottoms/underpants/PoleDanceComfort/Plava/Studio2-4490.jpg",
+          "bottoms/underpants/PoleDanceComfort/Plava/Studio2-4491.jpg"
+        ]
+      },
+      pink: {
+        name: "Hot Pink",
+        images: [
+          "bottoms/underpants/PoleDanceComfort/Roze/Studio2-4373.jpg",
+          "bottoms/underpants/PoleDanceComfort/Roze/Studio2-4379.jpg",
+          "bottoms/underpants/PoleDanceComfort/Roze/Studio2-4381.jpg",
+          "bottoms/underpants/PoleDanceComfort/Roze/Studio2-4393.jpg"
+        ]
+      },
+      black: {
+        name: "Black Pearl",
+        images: [
+          "bottoms/underpants/PoleDanceComfort/crne/Studio2-4713.jpg",
+          "bottoms/underpants/PoleDanceComfort/crne/Studio2-4717.jpg",
+          "bottoms/underpants/PoleDanceComfort/crne/Studio2-4720.jpg",
+          "bottoms/underpants/PoleDanceComfort/crne/Studio2-4723.jpg"
+        ]
+      },
+      darkGreen: {
+        name: "Olive Green",
+        images: [
+          "bottoms/underpants/PoleDanceComfort/Maslina/Studio2-4789.jpg",
+          "bottoms/underpants/PoleDanceComfort/Maslina/Studio2-4791.jpg",
+          "bottoms/underpants/PoleDanceComfort/Maslina/Studio2-4792.jpg",
+          "bottoms/underpants/PoleDanceComfort/Maslina/Studio2-4793.jpg"
+        ]
+      },
+      darkBlue: {
+        name: "Midnight Blue",
+        images: [
+          "bottoms/underpants/PoleDanceComfort/Teget/Studio1-9701.jpg",
+          "bottoms/underpants/PoleDanceComfort/Teget/Studio1-9713.jpg",
+          "bottoms/underpants/PoleDanceComfort/Teget/Studio1-9719.jpg",
+          "bottoms/underpants/PoleDanceComfort/Teget/Studio1-9729.jpg"
+        ]
+      }
+    }
   }
 };
 

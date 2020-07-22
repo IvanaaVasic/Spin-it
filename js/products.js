@@ -357,6 +357,29 @@ const PRODUCTS = {
         ]
       }
     }
+  },
+
+  TRANSLUCENT: {
+    colors: {
+      black: {
+        name: "Black Pearl",
+        images: [
+          "bottoms/Helanke/Translucent/Crne/Studio2-4724.jpg",
+          "bottoms/Helanke/Translucent/Crne/Studio2-4727.jpg",
+          "bottoms/Helanke/Translucent/Crne/Studio2-4728.jpg",
+          "bottoms/Helanke/Translucent/Crne/Studio2-4730.jpg"
+        ]
+      },
+      darkGreen: {
+        name: "Olive Green",
+        images: [
+          "bottoms/Helanke/Translucent/Maslina/Studio2-4540.jpg",
+          "bottoms/Helanke/Translucent/Maslina/Studio2-4550.jpg",
+          "bottoms/Helanke/Translucent/Maslina/Studio2-4558.jpg",
+          "bottoms/Helanke/Translucent/Maslina/Studio2-4559.jpg"
+        ]
+      }
+    }
   }
 };
 

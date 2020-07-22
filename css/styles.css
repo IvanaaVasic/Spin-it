@@ -263,7 +263,7 @@ nav ul {
   color: #636677;
   text-align: center;
   font-size: 16px;
-  line-height: 250%;
+  line-height: 280%;
   font-weight: bold;
   padding-bottom: 50px;
 }
@@ -385,6 +385,7 @@ nav ul {
   border-top: none;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .move-btn {
@@ -424,6 +425,8 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -27px;
+  padding-top: 27px;
 }
 
 .logo-footer {
@@ -457,7 +460,7 @@ nav ul {
   text-align: center;
   text-decoration: none;
   list-style: none;
-  line-height: 250%;
+  line-height: 270%;
   font-weight: bold;
 }
 

@@ -19,7 +19,8 @@ function selectItem(e) {
   featured.style.backgroundImage = e.target.style.backgroundImage;
 
   for (var i = 0; i < galleryItems.length; i++) {
-    if (galleryItems[i].classList.contains("active")) galleryItems[i].classList.remove("active");
+    if (galleryItems[i].classList.contains("active"))
+      galleryItems[i].classList.remove("active");
   }
 
   e.target.classList.add("active");
@@ -43,7 +44,7 @@ function galleryWrapRight() {
 function moveLeft() {
   left = left || 0;
 
-  leftInterval = setInterval(function () {
+  leftInterval = setInterval(function() {
     gallery.style.left = left + "%";
 
     if (left > -itemWidth) {
@@ -68,7 +69,7 @@ function moveRight() {
 
   left = left || 0;
 
-  leftInterval = setInterval(function () {
+  leftInterval = setInterval(function() {
     gallery.style.left = left + "%";
 
     if (left < 0) {
@@ -93,14 +94,14 @@ rightBtn.addEventListener("mouseleave", stopMovement);
 //Start this baby up
 (function init() {
   var images = [
-    "img/slika1.png",
-    "img/slika2.png",
+    "img/Untitled-3.png",
+    "img/Untitled-4.png",
     "img/slika3.png",
     "img/slika4.png",
-    "img/slika1.png",
-    "img/slika2.png",
+    "img/Untitled-3.png",
+    "img/Untitled-4.png",
     "img/slika3.png",
-    "img/slika4.png",
+    "img/slika4.png"
   ];
 
   //Set Initial Featured Image

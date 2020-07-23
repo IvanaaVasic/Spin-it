@@ -126,7 +126,7 @@ nav ul {
 }
 
 .first-part {
-  background-image: url(../img/main-picture.png);
+  background-image: url(../img/NewHomePageImage.jpg);
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -276,7 +276,7 @@ nav ul {
 }
 
 .third-part {
-  background-color: #bf7979;
+  background-image: url(../img/newbackgroundprioductsGallery.png);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -425,7 +425,6 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -27px;
   padding-top: 27px;
 }
 
@@ -494,7 +493,8 @@ nav ul {
 }
 
 .popUpImage {
-  background-image: url(../img/InstagramFollowImage.png);
+  background-image: url(../img/instapopup.png);
+  background-size: contain;
   display: block;
   width: 400px;
   height: 482px;
@@ -513,7 +513,7 @@ nav ul {
 }
 
 #tpopup {
-  background-image: url(../img/InstagramFollowBackground.png);
+  background-image: url(../img/InstagramBackgroundBlackOpacity.png);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -688,7 +688,7 @@ nav ul {
   }
 
   .popUpImage {
-    background-image: url(../img/InstagramFollowImageMobile.png);
+    background-image: url(../img/instapopup.png);
     width: 280px;
     height: 336px;
   }
@@ -744,5 +744,20 @@ nav ul {
 
   .copyRight {
     font-size: 20px;
+  }
+
+  .dropbtnS {
+    width: 40px;
+    height: 40px;
+  }
+
+  .insta {
+    width: 40px;
+    height: 40px;
+  }
+
+  .face {
+    width: 40px;
+    height: 40px;
   }
 }

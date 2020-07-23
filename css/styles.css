@@ -635,6 +635,8 @@ nav ul {
 
   .products-mobile-holder:first-of-type {
     margin-top: 30px;
+    position: relative;
+    right: 50px;
   }
 
   .products-mobile-holder:last-of-type {
@@ -642,8 +644,8 @@ nav ul {
   }
 
   .product-image {
-    width: 325px;
-    height: 325px;
+    width: 200px;
+    height: 200px;
     position: relative;
   }
 
@@ -665,7 +667,7 @@ nav ul {
 
   .arrow-mobile {
     position: absolute;
-    top: 12px;
+    top: 22px;
     right: 12px;
     opacity: 1;
   }
@@ -678,6 +680,7 @@ nav ul {
 
   .copyRight {
     font-size: 15px;
+    background-image: url(../img/footerbackgroundmob.png);
   }
 
   .logo-footer {
@@ -706,6 +709,48 @@ nav ul {
     height: 336px;
   }
 
+  .second-img {
+    position: relative;
+    left: 50px;
+  }
+
+  .third-img {
+    position: relative;
+    right: 50px;
+  }
+
+  .fourth-img {
+    position: relative;
+    left: 50px;
+  }
+
+  .downarr-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .downarr {
+    width: 32px;
+    height: 34px;
+
+  }
+
+  .second-part {
+    display: none;
+  }
+
+  .third-part {
+    background-image: url(../img/squaresmob.png);
+  }
+
+  .fourth-part {
+    background-image: url(../img/footerbackgroundmob.png);
+  }
+
+  .footer {
+    background-image: url(../img/footerbackgroundmob.png);
+  }
 }
 
 @media only screen and (min-width: 1850px) {

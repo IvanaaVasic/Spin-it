@@ -1,9 +1,11 @@
 .navigation-color {
   color: #bf7979;
 }
+
 .navigation-color:hover {
   color: #636677;
 }
+
 .first-part-editorial {
   background-image: url(../img/kockice.png);
   width: 100%;
@@ -12,6 +14,7 @@
   display: flex;
   flex-direction: row;
 }
+
 .left-part-album-name {
   display: flex;
   flex-direction: column;
@@ -19,6 +22,7 @@
   margin-top: 250px;
   margin-left: 50px;
 }
+
 .side-menu {
   text-decoration: none;
   font-family: MontserratItalic;
@@ -26,34 +30,41 @@
   line-height: 220%;
   cursor: pointer;
 }
+
 .side-menu:hover {
   color: #bf7979;
 }
+
 #zoom {
   transform: scale(1.1);
 }
+
 .right-part-pictures {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin-top: 180px;
 }
+
 .first-row-pictures {
   display: flex;
   flex-direction: row;
 }
+
 .ribbon-picture-1 {
   width: 400px;
   height: 523px;
   cursor: pointer;
   transition: ease-out 0.5s;
 }
+
 .ribbon-picture-2 {
   width: 550px;
   height: 346px;
   cursor: pointer;
   transition: ease-out 0.5s;
 }
+
 .second-row-pictures {
   display: flex;
   flex-direction: row;
@@ -61,15 +72,24 @@
   position: absolute;
   top: 500px;
 }
+
 .ribbon-picture-3 {
   width: 550px;
   height: 362px;
   cursor: pointer;
   transition: ease-out 0.5s;
 }
+
 .ribbon-picture-4 {
   width: 400px;
   height: 566px;
   cursor: pointer;
   transition: ease-out 0.5s;
+}
+
+@media only screen and (min-width: 1850px) {
+  .side-menu {
+    font-size: 23px;
+  }
+
 }

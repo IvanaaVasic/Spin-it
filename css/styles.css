@@ -693,3 +693,56 @@ nav ul {
     height: 336px;
   }
 }
+
+@media only screen and (min-width: 1850px) {
+  .gallery {
+    height: 600px;
+  }
+
+  .item-wrapper {
+    width: 500px;
+    height: 500px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  .wear {
+
+    font-size: 95px;
+  }
+
+  /* Animation */
+  .wear {
+    animation: animated-text 2s steps(30, end) 1s 1 normal both;
+  }
+
+  /* text animation */
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 990px;
+    }
+  }
+
+  .about-us-text {
+    font-size: 20px;
+  }
+
+  .shop ul {
+    font-size: 19px;
+  }
+
+  .head {
+    font-size: 23px;
+  }
+
+  .copyRight {
+    font-size: 20px;
+  }
+}

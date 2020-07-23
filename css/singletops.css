@@ -383,4 +383,59 @@
     top: 200px;
     right: 600px;
   }
+
+  .product-name {
+    font-size: 150px;
+  }
+
+  .product-color {
+    font-size: 23px;
+  }
+
+  .size-selection {
+    font-size: 23px;
+  }
+
+  .product-size {
+    font-size: 22px;
+  }
+
+  .size.selected {
+    width: 40px;
+    height: 40px;
+  }
+
+  .price {
+    font-size: 23px;
+  }
+
+  .material {
+    font-size: 20px;
+  }
+
+  .material-description {
+    font-size: 20px;
+  }
+
+  .addCart {
+    width: 190px;
+    font-size: 20px;
+  }
+
+  .minus-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .plus-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .count-holder {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
 }

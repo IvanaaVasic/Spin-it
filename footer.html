@@ -1,0 +1,339 @@
+<html>
+  <head>
+    <title>Spin It</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      class="js-site-favicon"
+      href="img/planeta.ico"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css?10" />
+
+    <link rel="stylesheet" type="text/css" href="css/store.css?15" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+
+    <script src="js/store.js" async></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html"> <img src="img/Logo.png" class="logo" /> </a>
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html" class="nav-color">HOME</a></li>
+          <li><a href="#products-section" class="nav-color">PRODUCTS</a></li>
+          <li><a href="editorial.html" class="nav-color">EDITORIAL</a></li>
+          <li><a href="" class="nav-color">COMMERCIAL</a></li>
+          <li><a href="#about-us" class="nav-color">ABOUT US</a></li>
+          <li><a href="" class="nav-color">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-media-icon">
+        <div class="dropdown">
+          <div class="dropbtn-products"></div>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="#products-section">Products</a>
+            <a href="editorial.html">Editorial</a>
+            <a href="#">Commercial</a>
+            <a href="#about-us">About us</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <img src="img/fb-icon.png" class="face" />
+        <img src="img/insta-icon.png" class="insta" />
+        <div class="dropdownS">
+          <div class="dropbtnS" onclick="showCart()"></div>
+          <div id="myDropdownS" class="dropdown-contentS">
+            <div class="header-icon-cart">
+              <h2 class="section-header">Your shopping cart</h2>
+              <img class="cart-icon" src="img/shoping-bag-pink.png" />
+            </div>
+            <hr class="dotted" />
+
+            <div class="cart-items"></div>
+            <a
+              href="checkout.html"
+              class="btn btn-primary btn-purchase"
+              type="button"
+            >
+              Check Out
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="footer-holder">
+      <div class="first-part-accordion">
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Materijal i održavanje
+        </div>
+        <div class="con">
+          <b>Materijal</b><br />
+          Proizvodi sportskog brenda Spin it proizvode se sa ljubavlju u Srbiji.
+          Koristimo samo prvoklasne visokokvalitetne materijale proizvedene u
+          Italiji. Naši proizvodi su jako izdržljivi i komforni sa slim dizajnom
+          koji sprečava znojenje. Takodje, proizvodi neće izgubiti oblik zbog
+          elastičnosti materijala. Zahvaljujući kvalitetnoj tkanini i tehničkoj
+          konstrukciji, naše proizvode možete nositi u raznim sportovima,
+          uključujući pole dance, moderan balet, pilates, jogu i druge plesove i
+          sportove. <br />
+          <b>Nega</b><br />Tretirajte svoje predmete kao sportsku odeću - perite
+          ih u hladnoj vodi ne višoj od 30 ° C (blago mašinsko pranje). Nemojte
+          koristiti masinu za sušenje. Ukoliko koristite peglu, peglajte na
+          niskoj temperaturi. Nemojte koristiti izbeljivac pri pranju. Hemijsko
+          čišćenje se takodje ne preporucuje.
+        </div>
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Informacije o isporuci
+        </div>
+        <div class="con">
+          <b>ROK ISPORUKE</b><br />
+          * Nakon što ste potvrdili porudžbinu, u najkraćem roku kontaktiraće
+          Vas naš prodavac telefonom, radi potvrde porudžbine i vaših podataka.
+          Period tokom kojeg će Vas naš prodavac kontaktirati je najčešće u toku
+          dana. Svi proizvodi poručeni putem www.spinitsportswear.rs web
+          prodavnice koje imamo na zalihama, isporučuju se u roku do 2 do 5
+          radna dana od prijema porudžbine, kurirskom službom „Aks“. Dostava je
+          besplatna za sve porudžbine čija je vrednost veća od 6000 dinara. * U
+          slučaju reklamacije ili zamene već poručenog i dostavljenog artikla,
+          troškovi ponovne isporuke snosi kupac. Isporuka se obavlja isključivo
+          radnim danima od 8 do 16 časova. Kurir će pokušati da dostavi pošiljku
+          u dva navrata. U slučaju neuspešnog prvog pokušaja, uobičajena praksa
+          je da Vas kurir kontaktira na broj telefona koji ste naveli prilikom
+          kupovine radi dogovora o novom terminu isporuke. U dane vikenda
+          kurirska službe ne preuzimaju pošiljke, tako da se porudžbine
+          primljene tokom vikenda otpremaju u ponedeljak. Za informaciju o tome
+          da li smo predali pošiljku kurirskoj službi, možete nas kontaktirati
+          na broj telefona: +381 64 369 2545 ili putem e-mail adrese:
+          office@spinitsportswear.rs
+        </div>
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Reklamacije i zamena
+        </div>
+        <div class="con">
+          <b>Uslovi reklamacije</b><br />
+          * Prilikom preuzimanja pošiljke molimo Vas da u prisustvu kurira
+          proverite svoj paket. Ukoliko na njemu ima vidljivih oštećenja
+          (pocepani delovi i ugnječenje) paket ne bi trebalo da preuzmete. U
+          ovom slučaju molimo Vas da nas pozovite telefonom na
+          broj 064/3692545 ili nam pošaljite e-mail sa svojim podacima (ime,
+          prezime, telefon) na adresu office@spinitsportswear.rs i navedete
+          razlog zbog koga ste odbili da preuzmete paket. * Ukoliko ste primili
+          pošiljku i nakon otvaranja kutije niste zadovoljni našom uslugom ili
+          proizvodom, molim vas da nas kontaktirate putem emejla najkasnije 4
+          sata nakon dostave. Reklamacije primamo samo ako nam uz pisani opis
+          dostavite i slike i/ili video snimak problema na koji ste naišli.
+          Reklamirani proizvod mora biti slikan u zatečenom stanju, nikako pola
+          konzumiran. Zaposleni u Spinit-u koji su zaduženi za reklamacije,
+          dužni su da vam odgovore U najkraćem mogućem roku obavestićemo Vas o
+          daljem postupanju. Ukoliko ustanovimo da je vaša reklamacija ima
+          osnova, Spin it online shop će vam vratiti vrednost porudžbine. *
+          Ukoliko se na kupljenom proizvodu pojave neusaglašenosti u smislu
+          odredbi Zakona o zaštiti potrošača, molimo Vas da postupite na način
+          definisan
+          <a href="https://shooter.rs/dokumenti/reklamacije-pravilnik.pdf"
+            >pravilnikom o reklamaciji potrošača</a
+          >
+          za robu kupljenu putem internet prodavnice, koji zajedno sa
+          <a href="https://shooter.rs/dokumenti/reklamacioni-list.pdf">
+            obrascem zahteva za reklamaciju</a
+          >
+          , treba da pošaljete na adresu ___________. * Zamena je moguca samo za
+          isti model. Ukoliko Vam velicina ne odgovara, mozete zameniti za drugu
+          velicinu. U slucaju zamene stanje kupljenog proizvoda mora biti novo,
+          nekorisceno, neoprano i sa svim originalnim etiketama.
+        </div>
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Tabela veličina
+        </div>
+        <div class="con"></div>
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Kontakt
+        </div>
+        <div class="con"></div>
+      </div>
+
+      <div class="second-part-accordion">
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Uslovi korišćenja
+        </div>
+        <div class="con">
+          <b>Uslovi korišćenja</b><br />
+
+          Na osnovu odredbe člana 13. i člana 27. Zakona o zaštiti potrošača
+          (Sl. glasnik RS 62/2014) Spin it Sportswear, svoje potrošače koji robu
+          kupuju putem internet sajta www.spinitsportswear.com <br /><b
+            >O B A V E Š T A V A </b
+          ><br />
+          &#9899; da roba koja se prodaje putem internet sajta
+          www.spinitsporswear.com poseduje svojstva potrebna za redovnu upotrebu
+          te vrste robe u skladu sa njenom namenom koja je definisana u
+          deklaraciji.<br />
+          &#9899; da se saobraznost robe ugovoru iskljucivo utvrđuje prema
+          svojstvima i nameni robe kako je to definisano pripadajućom
+          deklaracijom.<br />
+          &#9899; da je prodajna cena robe naznačena uz svaki artikl.<br />
+          &#9899; da je usluga isporuke robe besplatna za porudzbine preko 6000
+          dinara.<br />
+          &#9899; da se mogućnost kupovine robe uz posebne cenovne pogodnosti
+          ili uz posebne prodajne podsticaje (akcijska prodaja), obavlja u
+          skladu sa uslovima koji su objavljeni na internet sajtu
+          www.spinitsporswear.com
+          <br />
+          &#9899; da potrošač robu koju kupuje putem internet sajta
+          www.spinitsporswear.com može platiti pouzećem gotovinski u trenutku
+          isporuke i uplatnicom preko računa banke <br />
+          &#9899; da potrošač prilikom kreiranja porudžbenice pritiskom na
+          taster „NA PLAĆANJE“ preuzima obavezu plaćanja naručene robe <br />
+          &#9899; da u slučaju prijema robe potrošač ustanovi da veličina nije
+          odgovarajuća, potrošač ima pravo da artikal zameni za drugu veličinu
+          na način koji je definisan za robu kupljenu putem online prodavnice
+          www.spinitsportswear.com <br />
+          <b>Valuta</b><br />
+          Sve cene su prikazane u dinarima sa uračunatim PDV-om.  Prilikom
+          finalne naplate, vaš račun će biti zadužen za ukupan iznos porudžbine
+          sa obračunatim PDV-om. Sva plaćanja će biti izvršena u srpskoj valuti
+          – dinar (RSD). <br />
+          <b>Uslovi otkazivanja porudžbine</b> <br />
+          Ukoliko želite da otkažete svoju porudžbinu, molim vas da nas
+          kontaktirate najkasnije 24h pre planirane dostave poručene robe, u
+          suprotnom smatraćemo da će doći do realizcije i na dan planirane
+          dostave bićete zaduženi za ceo iznos vaše porudžbine. Naš kontakt
+          telefon za sve reklamacije i informacije je 064/3692545. Možete nas
+          kontaktirati i putem email adrese: office@spinitsporswear.com<br />
+          <b>Saglasnost</b> <br />
+          i promena uslova Korišćenje naših servisa podrazumeva saglasnost
+          korisnika sa navedenim uslovima korišćenja. Spin it online shop se
+          obavezuje da će se pridržavati svega navedenog, a sve promene uslova
+          postaju važeće tek nakon objavljivanja na ovoj strani i slanja e-mail
+          obaveštenja svim registrovanim korisnicima.
+        </div>
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Politika privatnosti
+        </div>
+        <div class="con">
+          <b>Politika privatnosti</b><br />Vaša privatnost  je u potpunosti
+          zaštićena. U ime Spin it online shop-a obavezujemo se da ćemo čuvati
+          privatnost svih naših kupaca. Sve posredovane informacije su sigurne,
+          nećemo ih ni pod kojim uslovima ustupati trećem licu, što Vam
+          osigurava potpuno sigurno i bezbedno poslovanje i saradnju sa online
+          prodavnicom Spin it.<br />
+          <b>Zaštita privatnosti podataka</b> <br />
+          Da bismo uspešno obradili Vašu narudžbinu potrebni su nam Vaše ime i
+          prezime, adresa, e-mail i telefon. Uz pomoć tih podataka bićemo u
+          mogućnosti da Vam isporučimo željenu robu, kao i da Vas obavestimo o
+          trenutnom statusu narudžbine. Prikupljamo samo neophodne, osnovne
+          podatke o kupcima/korisnicima i podatke neophodne za poslovanje i
+          informisanje korisnika u skladu sa dobrim poslovnim običajima i u
+          cilju pružanja kvalitetne usluge, prijavom
+          na www.spinitsporswear.com podrazumeva saglasnost korisnika da mu
+          šaljemo email obaveštenja. Spin it online shop će Vaše lične podatke
+          koristiti isključivo u svrhe tehničke administracije web sajta, kako
+          bi vam dala pristup posebnim informacijama ili za komunikaciju sa vama
+          ili sa osobama koji našu robu šaljete na poklon. Spin it online
+          shop neće prodati podatke koje poseduje trećim licima, niti na
+          tržištu. Zaposleni u Spin it online shop-u su obavezni da poštuju
+          poverljivost vaših podataka. Nikada i ni na koji način nećemo
+          zloupotrebiti vaše privatne informacije.<br />
+          Nećemo predati vaše podatke za kontakt trećim licima, sem ukoliko se
+          to od nas bude zahtevalo zakonom.<br />
+          Pored navedenih prikupljamo, analiziramo i obrađujemo podatke o
+          proizvodima koje naši posetioci traže i kupuju, kao i o stranicama
+          koje posećuju. Te podatke koristimo da bismo poboljšali ponudu i
+          izgled naših stranica, i omogućili Vam jednostavnije korišćenje,
+          sigurniju i udobniju kupovinu.<br />
+          <b> Saglasnost i promena uslova</b> <br />
+          Korišćenje naših servisa podrazumeva saglasnost korisnika sa navedenom
+          politikom privatnosti. Spin it online shop se obavezuje da će se
+          pridržavati svega navedenog, a sve promene uslova postaju važeće tek
+          nakon objavljivanja na ovoj strani i slanja e-mail obaveštenja svim
+          registrovanim korisnicima
+        </div>
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Kolačići
+        </div>
+        <div class="con">
+          <b>Cookies</b> <br />
+
+          Delovi našeg sajta www.spinitsporswear.com koristi „cookies“ da Vam
+          pomogne da prilagodite korišćenje interneta Vašim potrebama. Cookie je
+          tekstualni fajl koji se čuva lokalno na vašem računaru i koji
+          omogućava prepoznavanje korisnika koji se vratio na internet stranicu,
+          a radi praćenja i analize poseta internet stranici u cilju
+          optimizacije internet stranice Spin it online shop-a. Lični podaci u
+          ovom slučaju nisu sačuvani, te se ove informacije ne mogu koristiti za
+          ličnu identifikaciju. Ukoliko ne želite da prihvatite da se Cookie
+          čuva na vašem računaru, neophodno je da onemogućite Cookie za ovu
+          internet stranicu u vašem internet pretraživaču. Ranije instaliran
+          Cookie možete obrisati iz vašeg internet pretraživača. Onemogućavanje,
+          odnosno brisanje, može značiti i umanjenje funkcionalnosti internet
+          stranice.<br />
+          Cookie-ji su jedinstveno dodeljeni Vama, i jedino mogu biti pročitani
+          od strane web servera u domenu koji Vam ih je poslao. Jedna od
+          osnovnih svrha cookie-ja je da obezbedi pogodnosti koje će Vam
+          uštedeti vreme. <br />Naš web sajt ima implementiran Youtube kako
+          bismo vam obezbedili prikaz našeg video sadržaja. Youtube koristi
+          svoje cookie koji se nazivaju cookie trećih lica (third-party cookie).
+          Ovaj web sajt će vam dodeliti svoje Cookie, i ovaj postupak je pod
+          kontrolom i pravilima tog web sajta.<br />
+          <b>Saglasnost i promena uslova</b> <br />
+          Korišćenje naših servisa podrazumeva saglasnost korisnika sa navedenim
+          korišćenjem kolačića. Spin it online shop se obavezuje da će se
+          pridržavati svega navedenog, a sve promene uslova postaju važeće tek
+          nakon objavljivanja na ovoj strani i slanja e-mail obaveštenja svim
+          registrovanim korisnicima.
+        </div>
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>Slanje u inostranstvo
+        </div>
+        <div class="con">Cooming soon:)</div>
+        <div class="acc">
+          <span style="color: #bf7979">&#8827;</span
+          ><span style="color: #bf7979">&#8827;</span>O nama
+        </div>
+        <div class="con">
+          Dobrodošli u Spin it sportswear.<br />
+          Naša oprema, sašivena je ručno, od nežne najkvalitetnije italijanske
+          likre, koja će se u svakoj fizičkoj aktivnosti kretati sa Vama.<br />
+          Mi ni telu ni kreativnosti ne dozvoljavamo limite! Zbog toga, svaki od
+          našeg dizajna možete nositi na svoj, univerzalan način. Budimo
+          ženstvene, istaknimo svoje atribute i uživajmo u našem sportu.
+        </div>
+      </div>
+    </div>
+    <div class="background-upgrade"></div>
+    <script>
+      var aTitle = document.querySelectorAll(".acc");
+      var c = document.querySelectorAll(".con");
+      for (var x = 0; x < aTitle.length; x++) {
+        aTitle[x].onclick = function() {
+          cCon(this.nextElementSibling);
+          this.nextElementSibling.classList.toggle("active");
+        };
+      }
+
+      function cCon(t) {
+        for (var x = 0; x < c.length; x++) {
+          if (t != c[x]) {
+            c[x].classList.remove("active");
+          }
+        }
+      }
+    </script>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    <script src="js/common.js"></script>
+  </body>
+</html>

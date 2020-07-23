@@ -1,0 +1,82 @@
+nav a {
+    color: #5f6274;
+}
+
+.nav-color:hover {
+    color: #bf7979;
+}
+
+.footer-holder {
+    background-image: url(../img/newbackgroundprioductsGallery.png);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 400px;
+    justify-content: space-evenly;
+}
+
+.background-upgrade {
+    background-image: url(../img/newbackgroundprioductsGallery.png);
+    width: 100%;
+    height: 400px;
+}
+
+.con {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 17px;
+    display: none;
+    font-family: MontserratRegular;
+    color: #636677;
+    max-width: 500px;
+    line-height: 230%;
+}
+
+.acc {
+    font-family: MontserratItalic;
+    color: #636677;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.active {
+    display: block;
+}
+
+.first-part-accordion {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-part-accordion {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media only screen and (max-width: 835px) {
+    .footer-holder {
+        padding-top: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .first-part-accordion {
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+
+    .second-part-accordion {
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+
+    .con {
+        max-width: 340px;
+    }
+}

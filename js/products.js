@@ -154,7 +154,7 @@ const PRODUCTS = {
         images: [
           "tops/Simplicity/Plava/Studio1-09808.jpg",
           "tops/Simplicity/Plava/Studio1-09824.jpg",
-          "tops/Simplicity/Plava/Studio1-09852.jpg",
+          "tops/Simplicity/Plava/Kaver-09852.jpg",
           "tops/Simplicity/Plava/Studio1--10.jpg"
         ]
       },

@@ -23,12 +23,117 @@ nav a:hover {
     width: 70%;
     height: auto;
     background-image: url(../img/kockice.png);
-    height: 1200px;
+    height: auto;
     background-size: cover;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-top: 180px;
+    padding-left: 100px;
 }
 
 .header-cart-left {
     margin-top: 200px;
+}
+
+.checkout-name {
+    font-family: AwesomeBirds;
+    font-weight: normal;
+    color: #636677;
+    font-size: 100px;
+}
+
+.form-input {
+    font-family: MontserratRegular;
+    color: #636677;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 17px;
+    margin-left: 100px;
+}
+
+.input-field {
+    width: 400px;
+    height: 30px;
+    background-color: #f1dbd9;
+    border: 1px solid #ecbbb6;
+    display: flex;
+}
+
+.explanation {
+    text-align: center;
+    font-family: MontserratRegular;
+    color: #636677;
+    font-size: 17px;
+    line-height: 250%;
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.order {
+    width: 300px;
+    text-align: center;
+    font-family: MontserratRegular;
+    color: white;
+    background-color: #e7b1af;
+    border: none;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.links-explanation a {
+
+    font-family: MontserratRegular;
+    color: #636677;
+}
+
+.links-explanation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 835px) {
+    .checkout-holder {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cart-part {
+        width: 100%;
+    }
+
+    .info-part {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    .explanation {
+        width: 300px;
+    }
+
+    .form-input {
+        margin-left: 5px;
+    }
+
+    .input-field {
+        width: 320px;
+    }
+
+    .order {
+        margin-left: 10px;
+    }
+
+    .links-explanation {
+        margin-left: 20px;
+    }
+
+    .cart-icon {
+        display: none;
+    }
 }

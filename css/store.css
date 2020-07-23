@@ -167,6 +167,7 @@
     color: #636677;
     margin-right: 20px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .cart-total-price {
@@ -186,10 +187,11 @@
 /* Mobile */
 @media only screen and (max-width: 835px) {
     .dropdown-contentS {
-        right: 10px;
-        width: 320px;
+        right: 0px;
+        width: 375px;
         top: -150px;
         height: 700px;
+        opacity: 0.9;
     }
 
     .section-header {

@@ -18,7 +18,7 @@
   background-image: url(../img/kockice-pink.png);
   background-size: cover;
   width: 100%;
-  height: 1000px;
+  height: auto;
   display: flex;
   justify-content: center;
   /* Create the parallax scrolling effect */
@@ -111,9 +111,7 @@
 
 /* Mobile */
 @media only screen and (max-width: 835px) {
-  .first-part-products {
-    height: 3850px;
-  }
+
 
   .tops-images {
     padding-top: 150px;

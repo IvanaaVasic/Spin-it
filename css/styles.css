@@ -543,6 +543,14 @@ nav ul {
   box-shadow: 0 0 10px 0 #000;
 }
 
+.popUpImage-2 {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 482px;
+  top: 240px;
+}
 
 
 /* Mobile */

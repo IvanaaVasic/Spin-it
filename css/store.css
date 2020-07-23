@@ -14,7 +14,7 @@
 
 .cart-icon {
     position: relative;
-    bottom: 15px;
+    bottom: 10px;
     left: 20px;
 }
 
@@ -188,5 +188,11 @@
     .dropdown-contentS {
         right: 10px;
         width: 320px;
+        top: -150px;
+        height: 700px;
+    }
+
+    .section-header {
+        font-size: 20px;
     }
 }

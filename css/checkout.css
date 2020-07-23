@@ -15,8 +15,8 @@ nav a:hover {
 .cart-part {
     width: 30%;
     height: auto;
-    background-color: #facacb;
-    ;
+
+    background-image: url(../img/newbackgroundprioductsGallery.png);
 }
 
 .info-part {

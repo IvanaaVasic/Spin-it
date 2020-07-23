@@ -37,7 +37,7 @@ nav a {
 .tops-images {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 20px;
   align-items: center;
 }
 
@@ -109,13 +109,26 @@ nav a {
   font-weight: bold;
 }
 
+.products-choice {
+  background-image: url(../img/ProductsPageNewBackground2.png);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.top-space {
+  padding-top: 170px;
+}
+
+
 /* Mobile */
 @media only screen and (max-width: 835px) {
 
-
-  .tops-images {
-    padding-top: 150px;
-  }
 
   .products-images {
     width: 340px;
@@ -139,6 +152,10 @@ nav a {
 
   .first-part-products {
     height: auto;
+  }
+
+  .products-choice {
+    padding-bottom: 20px;
   }
 }
 

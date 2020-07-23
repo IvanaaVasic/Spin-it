@@ -96,6 +96,11 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
+.continue-shopping {
+    font-family: MontserratRegular;
+    color: #636677;
+}
+
 @media only screen and (max-width: 835px) {
     .checkout-holder {
         display: flex;
@@ -111,6 +116,7 @@ nav a:hover {
         padding-top: 0px;
         padding-left: 0px;
         align-items: center;
+        background-size: contain;
     }
 
     .explanation {

@@ -7,7 +7,7 @@ nav a {
 }
 
 .footer-holder {
-    background-image: url(../img/newbackgroundprioductsGallery.png);
+    background-image: url(../img/newbackgroundprioductsGallery2.png);
     width: 100%;
     height: auto;
     display: flex;
@@ -17,7 +17,7 @@ nav a {
 }
 
 .background-upgrade {
-    background-image: url(../img/newbackgroundprioductsGallery.png);
+    background-image: url(../img/newbackgroundprioductsGallery2.png);
     width: 100%;
     height: 400px;
 }

@@ -518,6 +518,7 @@ nav ul {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
 }
 
 #thover {

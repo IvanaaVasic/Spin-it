@@ -53,8 +53,11 @@
 }
 
 .right-part {
-  margin-top: 180px;
+  margin-top: 160px;
   padding-left: 50px;
+  background-image: url(../img/BackgroundSingleProducts.png);
+  background-repeat: no-repeat;
+  height: 800px;
 }
 
 .cart-image {
@@ -66,6 +69,7 @@
   font-weight: normal;
   color: #636677;
   font-size: 100px;
+  padding-top: 30px;
 }
 
 .mobile-header {
@@ -318,10 +322,12 @@
   .right-part {
     margin-top: 170px;
     padding-left: 20px;
+    background-image: none;
   }
 
   .product-name {
     font-size: 80px;
+    padding-top: 10px;
   }
 
   .pair-text {
@@ -385,7 +391,8 @@
   }
 
   .product-name {
-    font-size: 150px;
+    font-size: 130px;
+    padding-top: 30px;
   }
 
   .product-color {
@@ -437,5 +444,13 @@
     height: 50px;
     padding-top: 15px;
     font-size: 20px;
+  }
+
+  #expandedImg {
+    max-width: 525px;
+  }
+
+  .row img {
+    width: 118px;
   }
 }

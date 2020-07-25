@@ -31,7 +31,6 @@ nav a {
   font-size: 120px;
   color: #5f6274;
   font-weight: normal;
-  margin-top: 30px;
 }
 
 .tops-images {
@@ -149,6 +148,7 @@ nav a {
 
   .page-name {
     font-size: 140px;
+    margin-top: 30px;
   }
 
   .overlay-button-3 {

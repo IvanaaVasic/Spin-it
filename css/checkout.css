@@ -26,7 +26,7 @@ nav a:hover {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    padding-top: 180px;
+    padding-top: 150px;
     padding-left: 100px;
 }
 
@@ -45,14 +45,14 @@ nav a:hover {
     font-family: MontserratRegular;
     color: #636677;
     font-weight: bold;
-    padding-top: 50px;
+
     font-size: 17px;
     margin-left: 100px;
 }
 
 .input-field {
     width: 400px;
-    height: 30px;
+    height: 25px;
     background-color: #f1dbd9;
     border: 1px solid #ecbbb6;
     display: flex;
@@ -75,8 +75,8 @@ nav a:hover {
     color: white;
     background-color: #e7b1af;
     border: none;
-    height: 50px;
-    font-size: 30px;
+    height: 40px;
+    font-size: 27px;
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 100px;
@@ -98,6 +98,14 @@ nav a:hover {
 .continue-shopping {
     font-family: MontserratRegular;
     color: #636677;
+
+}
+
+.checko-logo {
+    width: 70px;
+    height: 85px;
+    margin-left: 40px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 835px) {
@@ -112,7 +120,7 @@ nav a:hover {
 
     .info-part {
         width: 100%;
-        padding-top: 0px;
+        padding-top: 30px;
         padding-left: 0px;
         align-items: center;
         background-size: contain;
@@ -140,5 +148,12 @@ nav a:hover {
 
     .cart-icon {
         display: none;
+    }
+
+    .checko-logo {
+        width: 100px;
+        height: 110px;
+        margin-top: 40px;
+        margin-left: 137px;
     }
 }

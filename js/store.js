@@ -185,7 +185,7 @@ function showCart() {
 
   subTotal.innerHTML = `
       <div class="cart-total">
-      <strong class="cart-total-title">Subtotal:</strong>
+      <strong class="cart-total-title">Ukupno:</strong>
       <span class="cart-total-price"> ${calculateTotal(cart)} RSD</span>
     </div>
     `;

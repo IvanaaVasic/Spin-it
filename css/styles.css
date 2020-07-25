@@ -211,6 +211,7 @@ nav ul {
 
 .dropdownS {
   position: relative;
+  cursor: pointer;
 }
 
 .dropdown-contentS {
@@ -508,7 +509,7 @@ nav ul {
 }
 
 .popUpImage {
-  background-image: url(../img/instapopup.png);
+  background-image: url(../img/InsagramFINALimage.png);
   background-size: contain;
   display: block;
   width: 400px;

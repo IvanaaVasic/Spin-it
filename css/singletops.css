@@ -84,6 +84,7 @@
 .color-buttons {
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .color-button {

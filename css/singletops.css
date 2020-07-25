@@ -57,7 +57,7 @@
   padding-left: 50px;
   background-image: url(../img/BackgroundSingleProducts.png);
   background-repeat: no-repeat;
-  height: 800px;
+  height: 650px;
 }
 
 .cart-image {
@@ -181,6 +181,7 @@
   line-height: 220%;
   color: #636677;
   margin-top: 20px;
+  font-size: 15px;
 }
 
 .counting-buttons {
@@ -452,5 +453,9 @@
 
   .row img {
     width: 118px;
+  }
+
+  .right-part {
+    height: 800px;
   }
 }

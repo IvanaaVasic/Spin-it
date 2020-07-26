@@ -34,7 +34,7 @@
 
 .row img {
   cursor: pointer;
-  width: 100px;
+  height: 150px;
 }
 
 .container {
@@ -303,6 +303,11 @@
   font-weight: bold;
 }
 
+#expandedImg {
+  height: 630px;
+
+}
+
 @media only screen and (max-width: 835px) {
   .first-part-single-products {
     flex-direction: column;
@@ -326,7 +331,7 @@
 
   .row img {
     cursor: pointer;
-    width: 75px;
+    height: 120px;
   }
 
   .row {

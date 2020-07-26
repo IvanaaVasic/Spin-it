@@ -303,7 +303,7 @@
   font-weight: bold;
 }
 
-.expandedImg {
+#expandedImg {
   height: 630px;
 
 }
@@ -386,12 +386,13 @@
     height: auto;
     position: relative;
   }
+
+  #expandedImg {
+    height: 550px;
+
+  }
 }
 
-.expandedImg {
-  height: 550px;
-
-}
 
 @media only screen and (min-width: 1850px) {
   .left-part {
@@ -465,7 +466,7 @@
     font-size: 20px;
   }
 
-  .expandedImg {
+  #expandedImg {
     height: 780px;
   }
 

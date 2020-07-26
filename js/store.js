@@ -50,6 +50,8 @@ function removeItemFromCart(itemId) {
   putCartToStorage({ items });
 
   updateTotalPrice();
+  document.querySelector(".number-of-items").innerText =
+    "(" + fetchCartFromStorage().items.length + ")";
 }
 
 function changeQuantity(itemId, newQuantity) {
@@ -111,6 +113,8 @@ function ready() {
     var button = addToCartButtons[i];
     button.addEventListener("click", addToCartClicked);
   }
+  document.querySelector(".number-of-items").innerText =
+    "(" + fetchCartFromStorage().items.length + ")";
 
   document.getElementsByClassName("btn-purchase")[0];
   // .addEventListener("click", purchaseClicked);
@@ -252,6 +256,9 @@ function addItemToCart(title, priceStr, imageSrc, color, size) {
   const quantity = document.querySelector(".count-holder").innerText;
 
   putItemToCart({ id, title, price, imageSrc, color, size, quantity });
+
+  document.querySelector(".number-of-items").innerText =
+    "(" + fetchCartFromStorage().items.length + ")";
 }
 
 document.getElementById("myDropdownS").addEventListener("click", e => {

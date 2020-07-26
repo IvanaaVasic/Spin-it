@@ -69,3 +69,10 @@ subTotal.innerHTML = `
     `;
 
 cartItems.append(subTotal);
+
+if (cart.items.length === 0) {
+  document.querySelector(".shipping-price").innerText = ` - RSD`;
+}
+if (cart.items.length === 0) {
+  document.querySelector(".cart-total-price").innerText = `- RSD`;
+}

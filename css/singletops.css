@@ -41,6 +41,9 @@
   position: relative;
   display: block;
   cursor: zoom-in;
+  display: flex;
+  justify-content: center;
+
 }
 
 .closebtn {
@@ -293,6 +296,13 @@
   font-weight: bold;
 }
 
+.number-of-items {
+  position: absolute;
+  color: #bf7979;
+  font-family: MontserratRegular;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 835px) {
   .first-part-single-products {
     flex-direction: column;
@@ -374,7 +384,7 @@
 }
 
 #expandedImg {
-  max-width: 450px;
+  height: 550px;
 
 }
 
@@ -386,7 +396,7 @@
   }
 
   .row {
-    padding: 0px 30px 23px 0px;
+    padding: 0px 30px 24px 0px;
   }
 
   .img-zoom-result {
@@ -451,11 +461,11 @@
   }
 
   #expandedImg {
-    max-width: 525px;
+    height: 780px;
   }
 
   .row img {
-    width: 118px;
+    height: 177px;
   }
 
   .right-part {

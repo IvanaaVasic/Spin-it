@@ -5,7 +5,7 @@ if (document.readyState == "loading") {
 }
 
 const STORAGE = sessionStorage;
-const INITIAL_CART = { items: [], total: 0 };
+const INITIAL_CART = { items: [] };
 
 function checkCart() {
   if (!STORAGE.getItem("cart"))
@@ -53,6 +53,11 @@ function removeItemFromCart(itemId) {
 }
 
 function changeQuantity(itemId, newQuantity) {
+  if (parseInt(newQuantity) < 1) {
+    document.querySelector(".cart-quantity-input").value = 1;
+    return;
+  }
+
   const cart = fetchCartFromStorage();
 
   const items = cart.items.filter(i => i.id === itemId);
@@ -67,11 +72,21 @@ function calculateTotal(cart) {
 
 function updateTotalPrice() {
   const cart = fetchCartFromStorage();
-  const latestTotalPrice = calculateTotal(cart);
 
-  document.getElementsByClassName(
-    "cart-total-price"
-  )[0].innerHTML = `${latestTotalPrice} RSD`;
+  const totalCartPrice = calculateTotal(cart);
+  const shippingPrice = totalCartPrice < 6000 ? 250 : 0;
+
+  //ako je cart prazan -> napisi crticu ili 'prazan'; ako
+
+  document.querySelector(".shipping-price").innerText = `${shippingPrice} RSD`;
+  document.querySelector(".cart-total-price").innerText = `${totalCartPrice +
+    shippingPrice} RSD`;
+  if (cart.items.length === 0) {
+    document.querySelector(".shipping-price").innerText = ` - RSD`;
+  }
+  if (cart.items.length === 0) {
+    document.querySelector(".cart-total-price").innerText = `- RSD`;
+  }
 }
 
 function itemId(title, color, size) {
@@ -97,9 +112,8 @@ function ready() {
     button.addEventListener("click", addToCartClicked);
   }
 
-  document
-    .getElementsByClassName("btn-purchase")[0]
-    .addEventListener("click", purchaseClicked);
+  document.getElementsByClassName("btn-purchase")[0];
+  // .addEventListener("click", purchaseClicked);
 }
 
 // function purchaseClicked() {
@@ -121,6 +135,8 @@ function quantityChanged(event) {
 
 function addToCartClicked(event) {
   const button = event.target;
+  event.stopPropagation();
+
   const shopItem = button.parentElement.parentElement;
 
   const title = shopItem.getElementsByClassName("shop-item-title")[0].innerText;
@@ -130,6 +146,7 @@ function addToCartClicked(event) {
   const imageSrc = document.querySelector(".product-images .product-image").src;
 
   addItemToCart(title, price, imageSrc, color, size);
+  showCart();
 }
 
 function showCart() {
@@ -138,7 +155,6 @@ function showCart() {
 
   var cartItems = document.getElementsByClassName("cart-items")[0];
   cartItems.innerHTML = "";
-
   items.forEach(item => {
     const { title, color, price, imageSrc, quantity, size } = item;
 
@@ -181,18 +197,44 @@ function showCart() {
       });
   });
 
+  let shippingCosts = calculateTotal(cart) < 6000 ? 250 : 0;
+
+  const shippingCostEl = document.createElement("div");
+
+  shippingCostEl.innerHTML = `
+      <div class="shipping-cost">
+      <strong class="shipping-cost-title">Dostava:</strong>
+      <span class="shipping-price"> ${shippingCosts}RSD</span>
+    </div>
+    `;
+
+  cartItems.append(shippingCostEl);
+
   const subTotal = document.createElement("div");
 
   subTotal.innerHTML = `
       <div class="cart-total">
       <strong class="cart-total-title">Ukupno:</strong>
-      <span class="cart-total-price"> ${calculateTotal(cart)} RSD</span>
+      <span class="cart-total-price"> ${calculateTotal(cart) +
+        shippingCosts} RSD</span>
     </div>
     `;
 
   cartItems.append(subTotal);
 
   document.getElementById("myDropdownS").classList.toggle("show");
+
+  if (document.getElementById("myDropdownS").classList.contains("show")) {
+    // document.getElementById("myDropdownS").classList.remove("show");
+  } else {
+    // document.getElementById("myDropdownS").classList.add("show");
+  }
+  if (cart.items.length === 0) {
+    document.querySelector(".shipping-price").innerText = ` - RSD`;
+  }
+  if (cart.items.length === 0) {
+    document.querySelector(".cart-total-price").innerText = `- RSD`;
+  }
 }
 
 function addItemToCart(title, priceStr, imageSrc, color, size) {

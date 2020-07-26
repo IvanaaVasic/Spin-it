@@ -432,7 +432,7 @@ function addPieces() {
   numberHolder.innerHTML = itemHolderCount;
 }
 function subPieces() {
-  if (itemHolderCount <= 0) {
+  if (itemHolderCount <= 1) {
     return;
   }
   itemHolderCount--;

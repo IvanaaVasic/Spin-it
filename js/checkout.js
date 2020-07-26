@@ -45,12 +45,26 @@ items.forEach(item => {
     });
 });
 
+let shippingCosts = calculateTotal(cart) < 6000 ? 250 : 0;
+
+const shippingCostEl = document.createElement("div");
+
+shippingCostEl.innerHTML = `
+    <div class="shipping-cost">
+    <strong class="shipping-cost-title">Dostava:</strong>
+    <span class="shipping-price"> ${shippingCosts} RSD</span>
+  </div>
+  `;
+
+cartItems.append(shippingCostEl);
+
 const subTotal = document.createElement("div");
 
 subTotal.innerHTML = `
       <div class="cart-total">
-      <strong class="cart-total-title">Subtotal:</strong>
-      <span class="cart-total-price"> ${calculateTotal(cart)} RSD</span>
+      <strong class="cart-total-title">Ukupno:</strong>
+      <span class="cart-total-price"> ${calculateTotal(cart) +
+        shippingCosts} RSD</span>
     </div>
     `;
 

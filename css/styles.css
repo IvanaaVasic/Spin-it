@@ -588,7 +588,6 @@ nav ul {
   .first-part {
     background-image: url(../img/Image.png);
     background-position: center;
-    -webkit-background-size: cover;
   }
 
   @keyframes animated-text {

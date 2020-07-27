@@ -43,7 +43,31 @@
         </div>
         <img src="img/fb-icon.png" class="face" />
         <img src="img/insta-icon.png" class="insta" />
-        <img src="img/shoping-bag-pink.png" class="basket" />
+        <div class="dropdownS">
+          <div class="dropbtnS" onclick="showCart()"></div>
+          <div class="number-of-items">(0)</div>
+          <div id="myDropdownS" class="dropdown-contentS">
+            <div class="header-icon-cart">
+              <img
+                class="close-content"
+                onclick="showCart()"
+                src="img/pinkarrow2.png"
+              />
+              <h2 class="section-header">Your shopping cart</h2>
+              <img class="cart-icon" src="img/shoping-bag-pink.png" />
+            </div>
+            <hr class="dotted" />
+
+            <div class="cart-items"></div>
+            <a
+              href="checkout.html"
+              class="btn btn-primary btn-purchase"
+              type="button"
+            >
+              Check Out
+            </a>
+          </div>
+        </div>
       </div>
     </header>
     <div class="main-part-editorial-inside">

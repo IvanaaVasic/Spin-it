@@ -206,6 +206,13 @@
     border-style: none none dotted;
 }
 
+.number-of-items {
+    position: absolute;
+    color: #bf7979;
+    font-family: MontserratRegular;
+    font-weight: bold;
+}
+
 /* Mobile */
 @media only screen and (max-width: 835px) {
     .dropdown-contentS {

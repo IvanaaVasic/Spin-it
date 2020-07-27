@@ -173,19 +173,26 @@ nav ul {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
+  background-color: #b2b3bb;
+  min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   right: 1px;
   padding-top: 20px;
+
+
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: #bf7979;
+  margin: 12px 16px;
   text-decoration: none;
   display: block;
+  background-image: url("../img/menu-image.jpeg");
+  background-size: cover;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .dropdown-content a:hover {
@@ -602,6 +609,7 @@ nav ul {
 
   .dropdown-content {
     font-family: MontserratRegular;
+
   }
 
   .planet {

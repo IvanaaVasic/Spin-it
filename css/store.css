@@ -226,4 +226,9 @@
     .section-header {
         font-size: 20px;
     }
+
+    .number-of-items {
+        font-size: 13px;
+    }
+
 }

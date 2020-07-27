@@ -346,15 +346,16 @@
   }
 
   .row {
-    padding: 20px 12px 10px 0px;
+    margin: 20px 12px 10px 0px;
+    padding: 0px;
   }
 
   .row:last-child {
-    padding-right: 0px;
+    margin-right: 0px;
   }
 
   .right-part {
-    margin-top: 20px;
+    margin-top: 30px;
     padding-left: 20px;
     background-image: none;
   }

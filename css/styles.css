@@ -177,7 +177,6 @@ nav ul {
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  right: 1px;
   padding-top: 20px;
 
 
@@ -586,6 +585,7 @@ nav ul {
   .dropdown {
     display: inline-block;
     margin-top: 20px;
+    margin-left: 10px;
   }
 
   .wear {
@@ -704,7 +704,7 @@ nav ul {
     width: 100px;
     height: 110px;
     margin-top: 40px;
-    margin-left: 137px;
+    margin-left: 0px;
   }
 
   .header {

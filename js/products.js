@@ -420,7 +420,7 @@ const product = PRODUCTS[productName];
 function changeMainPicture(imgs) {
   var expandImg = document.getElementById("expandedImg");
   expandImg.src = imgs.src;
-  expandImg.parentElement.style.display = "block";
+  expandImg.parentElement.style.display = "flex";
 }
 
 function addPieces() {
@@ -534,7 +534,32 @@ colors.forEach(c =>
     const colorInfo = product.colors[color];
 
     const productImagesEl = document.querySelectorAll(
-      ".product-images .product-image"
+      ".product-images .product-image "
+    );
+
+    for (let i = 0; i < productImagesEl.length; i++) {
+      productImagesEl[i].src = colorInfo.images[i];
+    }
+
+    // Set shop item color title
+    document.querySelector(".shop-item-color").innerText = colorInfo.name;
+
+    // Set first new image as big image
+    changeMainPicture(productImagesEl[0]);
+  })
+);
+
+colors.forEach(c =>
+  c.addEventListener("click", event => {
+    colors.forEach(c => c.classList.remove("selected"));
+    event.target.classList.add("selected");
+
+    const color = event.target.getAttribute("color");
+
+    const colorInfo = product.colors[color];
+
+    const productImagesEl = document.querySelectorAll(
+      ".product-images-slide-mobile .product-image "
     );
 
     for (let i = 0; i < productImagesEl.length; i++) {

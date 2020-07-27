@@ -15,15 +15,23 @@
   </head>
   <body>
     <header class="header">
-      <div class="dropdown">
-        <div class="dropbtn"></div>
-        <div class="dropdown-content">
-          <a href="index.html">Početna</a>
-          <a href="#products-section">Proizvodi</a>
-          <a href="" onclick="comming()">Editorijal</a>
-          <a href="#" onclick="comming()">Video</a>
-        </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
       </div>
+      <span
+        class="displ-butt"
+        style="font-size:30px;cursor:pointer;color: #bf7979;margin-top: 20px;
+        margin-left: 10px;"
+        onclick="openNav()"
+        >&#9776;</span
+      >
+
       <a href="index.html"> <img src="img/Logo.png" class="logo" /> </a>
       <nav class="navigation">
         <ul>
@@ -281,6 +289,15 @@
     <script src="js/common.js"></script>
     <script src="js/main.js"></script>
     <script src="js/popup.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
   </body>
   <div id="thover"></div>
 

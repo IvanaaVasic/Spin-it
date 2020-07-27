@@ -1,11 +1,11 @@
+const STORAGE = sessionStorage;
+const INITIAL_CART = { items: [] };
+
 if (document.readyState == "loading") {
   document.addEventListener("DOMContentLoaded", ready);
 } else {
   ready();
 }
-
-const STORAGE = sessionStorage;
-const INITIAL_CART = { items: [] };
 
 function checkCart() {
   if (!STORAGE.getItem("cart"))
@@ -117,7 +117,10 @@ function ready() {
     "(" + fetchCartFromStorage().items.length + ")";
 
   document.getElementsByClassName("btn-purchase")[0];
-  // .addEventListener("click", purchaseClicked);
+
+  document.getElementById("myDropdownS").addEventListener("click", e => {
+    e.stopPropagation();
+  });
 }
 
 // function purchaseClicked() {
@@ -260,10 +263,6 @@ function addItemToCart(title, priceStr, imageSrc, color, size) {
   document.querySelector(".number-of-items").innerText =
     "(" + fetchCartFromStorage().items.length + ")";
 }
-
-document.getElementById("myDropdownS").addEventListener("click", e => {
-  e.stopPropagation();
-});
 
 const sizes = document.querySelectorAll(".size");
 

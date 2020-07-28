@@ -23,3 +23,11 @@ function topFunction() {
 function comming() {
   alert("Comming soon...");
 }
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}

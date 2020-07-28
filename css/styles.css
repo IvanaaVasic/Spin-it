@@ -582,7 +582,7 @@ nav ul {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #b2b3bb;
+  background-color: #f3dedc;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -591,16 +591,8 @@ nav ul {
 .sidenav a {
   margin: 12px 16px;
   text-decoration: none;
-  font-size: 25px;
-  color: #bf7979;
-  display: block;
   transition: 0.3s;
-  background-image: url(../img/menu-image.jpeg);
-  background-size: cover;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  font-family: MontserratRegular;
+  color: #bf7979;
 }
 
 .sidenav a:hover {
@@ -617,6 +609,43 @@ nav ul {
 
 .displ-butt {
   display: none;
+}
+
+.home-menu-mobile {
+  background-image: url("../Menu/1.png");
+}
+
+.tops-menu-mobile {
+  background-image: url("../Menu/2.png");
+}
+
+.bottoms-menu-mobile {
+  background-image: url("../Menu/4.png");
+}
+
+.body-menu-mobile {
+  background-image: url("../Menu/3.png");
+}
+
+.editorial-menu-mobile {
+  background-image: url("../Menu/5.png");
+}
+
+.video-menu-mobile {
+  background-image: url("../Menu/6.png");
+}
+
+.faq-menu-mobile {
+  background-image: url("../Menu/7.png");
+}
+
+.common-styles {
+  background-size: cover;
+  height: 79px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  font-family: MontserratRegular;
 }
 
 /* Mobile */

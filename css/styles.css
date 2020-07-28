@@ -576,7 +576,7 @@ nav ul {
 }
 
 .sidenav {
-  height: auto;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -586,6 +586,8 @@ nav ul {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .sidenav a {

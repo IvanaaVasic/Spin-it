@@ -1,7 +1,7 @@
 var gallery = document.querySelector(".gallery");
 var galleryItems = document.querySelectorAll(".gallery-item");
 var numOfItems = gallery.children.length;
-var itemWidth = 100; // percent: as set in css
+var itemWidth = 27.188; // percent: as set in css
 
 var featured = document.querySelector(".featured-item");
 
@@ -10,7 +10,7 @@ var rightBtn = document.querySelector(".move-btn.right");
 var leftInterval;
 var rightInterval;
 
-var scrollRate = 0.1;
+var scrollRate = 0.15;
 var left;
 
 function selectItem(e) {

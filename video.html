@@ -1,0 +1,217 @@
+<html>
+  <head>
+    <title>Spin It</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      class="js-site-favicon"
+      href="img/planeta.ico"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css?15" />
+    <link rel="stylesheet" type="text/css" href="css/singletops.css?19" />
+    <link rel="stylesheet" type="text/css" href="css/store.css?15" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="index.html" class="home-menu-mobile common-styles"></a>
+        <a href="tops.html" class="tops-menu-mobile common-styles"></a>
+        <a href="bodysuits.html" class="body-menu-mobile common-styles"></a>
+        <a href="bottoms.html" class="bottoms-menu-mobile common-styles"></a>
+        <a
+          href=""
+          onclick="comming()"
+          class="editorial-menu-mobile common-styles"
+        ></a>
+        <a
+          href=""
+          onclick="comming()"
+          class="video-menu-mobile common-styles"
+        ></a>
+        <a href="footer.html" class="faq-menu-mobile common-styles"></a>
+      </div>
+      <span
+        class="displ-butt"
+        style="font-size:30px;cursor:pointer;color: #bf7979;margin-top: 20px;
+            margin-left: 10px;"
+        onclick="openNav()"
+        >&#9776;</span
+      >
+      <a href="index.html"> <img src="img/Logo.png" class="logo" /> </a>
+      <nav class="navigation">
+        <ul>
+          <li><a href="index.html" class="navigation-color">POČETNA</a></li>
+          <li>
+            <a href="products.html" class="navigation-color">PROIZVODI</a>
+          </li>
+          <li>
+            <a href="" onclick="comming()" class="navigation-color"
+              >EDITORIJAL</a
+            >
+          </li>
+          <li>
+            <a href="" onclick="comming()" class="navigation-color">VIDEO</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="social-media-icon">
+        <a href="https://www.facebook.com/spinitsportswear">
+          <img src="img/fb-icon.png" class="face"
+        /></a>
+        <a href="https://www.instagram.com/spin_it_sportswear/">
+          <img src="img/insta-icon.png" class="insta"
+        /></a>
+
+        <div class="dropdownS">
+          <div class="dropbtnS" onclick="showCart()"></div>
+          <div class="number-of-items">(0)</div>
+          <div id="myDropdownS" class="dropdown-contentS">
+            <div class="header-icon-cart">
+              <img
+                class="close-content"
+                onclick="showCart()"
+                src="img/pinkarrow2.png"
+              />
+              <h2 class="section-header">Your shopping cart</h2>
+              <img class="cart-icon" src="img/shoping-bag-pink.png" />
+            </div>
+            <hr class="dotted" />
+
+            <div class="cart-items"></div>
+            <a
+              href="checkout.html"
+              class="btn btn-primary btn-purchase"
+              type="button"
+            >
+              Check Out
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="first-part-single-products">
+        <div class="third-part" id="products-section">
+            <div class="styles-container">
+              <div class="gallery-wrapper">
+                <div class="gallery">
+                  <div class="item-wrapper">
+                    <a href="bottoms.html">
+                      <figure
+                        class="gallery-item image-holder r-3-2 active transition"
+                      ></figure
+                    ></a>
+                    <a href="bottoms.html"><div class="overlay">BOTTOMS</div></a>
+                    <a href="bottoms.html"
+                      ><div class="arrow"><img src="img/strelica1.png" /></div
+                    ></a>
+                  </div>
+                  <div class="item-wrapper">
+                    <a href="tops.html"
+                      ><figure
+                        class="gallery-item image-holder r-3-2 transition"
+                      ></figure
+                    ></a>
+                    <a href="tops.html"><div class="overlay">TOPS</div></a>
+                    <a href="tops.html"
+                      ><div class="arrow"><img src="img/strelica1.png" /></div
+                    ></a>
+                  </div>
+                  <div class="item-wrapper">
+                    <a href="bodysuits.html"
+                      ><figure
+                        class="gallery-item image-holder r-3-2 transition"
+                      ></figure
+                    ></a>
+                    <a href="bodysuits.html"><div class="overlay">BODYSUITS</div></a>
+                    <a href="bodysuits.html"
+                      ><div class="arrow"><img src="img/strelica1.png" /></div
+                    ></a>
+                  </div>
+                  <div class="item-wrapper">
+                    <a href="" onclick="comming()"
+                      ><figure
+                        class="gallery-item image-holder r-3-2 transition"
+                      ></figure
+                    ></a>
+                    <a href="" onclick="comming()"
+                      ><div class="overlay">HOTDEALS</div></a
+                    >
+                    <a href="" onclick="comming()"
+                      ><div class="arrow"><img src="img/strelica1.png" /></div
+                    ></a>
+                  </div>
+                  <div class="item-wrapper">
+                    <a href="bottoms.html"
+                      ><figure
+                        class="gallery-item image-holder r-3-2 transition"
+                      ></figure
+                    ></a>
+                    <a href="bottoms.html"><div class="overlay">BOTTOMS</div></a>
+                    <a href="bottoms.html"
+                      ><div class="arrow"><img src="img/strelica1.png" /></div
+                    ></a>
+                  </div>
+                  <div class="item-wrapper">
+                    <a href="tops.html"
+                      ><figure
+                        class="gallery-item image-holder r-3-2 transition"
+                      ></figure
+                    ></a>
+                    <a href="tops.html"><div class="overlay">TOPS</div></a>
+                    <a href="tops.html"
+                      ><div class="arrow"><img src="img/strelica1.png" /></div
+                    ></a>
+                  </div>
+                  <div class="item-wrapper">
+                    <a href="bodysuits.html"
+                      ><figure
+                        class="gallery-item image-holder r-3-2 transition"
+                      ></figure
+                    ></a>
+                    <a href="bodysuits.html"><div class="overlay">BODYSUITS</div></a>
+                    <a href="bodysuits.html"
+                      ><div class="arrow"><img src="img/strelica1.png" /></div
+                    ></a>
+                  </div>
+                  <div class="item-wrapper">
+                    <a href="" onclick="comming()"
+                      ><figure
+                        class="gallery-item image-holder r-3-2 transition"
+                      ></figure
+                    ></a>
+                    <a href="" onclick="comming()"
+                      ><div class="overlay">HOTDEALS</div></a
+                    >
+                    <a href="" onclick="comming()"
+                      ><div class="arrow"><img src="img/strelica1.png" /></div
+                    ></a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="controls">
+                <img src="img/pinkarrow2.png" class="move-btn left" />
+                <img src="img/pinkarrow.png" class="move-btn right" />
+              </div>
+            </div>
+            </div>
+    </div>
+  </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+    <script>
+      const productName = "BASIC_TOP";
+    </script>
+
+    <script src="js/common.js"></script>
+
+    <script src="js/store.js"></script>
+  </body>
+</html>

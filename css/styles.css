@@ -136,6 +136,7 @@ nav ul {
   /* Create the parallax scrolling effect */
 
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .text-box {

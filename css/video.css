@@ -1,0 +1,77 @@
+.first-part-video {
+    background-image: url("../img/kockice.png");
+    height: 300px;
+
+}
+
+.video-name {
+    color: #bf7979;
+    font-family: AwesomeBirds;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    padding-top: 220px;
+}
+
+nav a {
+    color: #bf7979;
+}
+
+nav a:hover {
+    color: #636677;
+}
+
+.video-holder {
+
+    background-image: url(../img/background.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video {
+    position: relative;
+    white-space: nowrap;
+    font-size: 0;
+    height: 394px;
+}
+
+.video-container {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.video-wrapper {
+
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.video-wrapper-holder {
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.third-part-video {
+    background-image: url("../img/kockice.png");
+    height: 300px;
+}
+
+@media only screen and (min-width: 1850px) {
+    .video {
+        height: 394px;
+    }
+
+    .video-name {
+        font-size: 150px;
+    }
+
+
+
+}

@@ -112,14 +112,16 @@ function submitOrder() {
     body: JSON.stringify(data)
   })
     .then(() => {
-      alert("Uspesno..kakska");
+      alert("Vaša narudžbina je uspešno poslata!");
 
       STORAGE.removeItem("cart");
 
-      document.location.reload;
+      document.location.reload();
     })
     .catch(err => {
-      alert("ERROR!");
+      alert(
+        "ERROR! Pokušajte ponovo ili kontaktirajte Spin it na mail: office@spinitsportswear.com"
+      );
       console.error(err);
     });
 }

@@ -63,6 +63,30 @@ nav a:hover {
     height: 300px;
 }
 
+.mobile-video {
+    display: none;
+}
+
+@media only screen and (max-width: 835px) {
+    .mobile-video {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .first-part-video {
+        height: auto;
+    }
+
+    .video-holder-mobile {
+        margin-bottom: 30px;
+    }
+
+    .third-part-video {
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 1850px) {
     .video {
         height: 394px;

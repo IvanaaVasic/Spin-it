@@ -22,7 +22,6 @@ nav a:hover {
 }
 
 .video-holder {
-
     background-image: url(../img/background.png);
     display: flex;
     flex-direction: column;
@@ -72,6 +71,8 @@ nav a:hover {
         display: flex;
         align-items: center;
         flex-direction: column;
+        background-image: url(../img/background.png);
+        padding-top: 60px;
     }
 
     .first-part-video {

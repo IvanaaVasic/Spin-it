@@ -127,7 +127,7 @@ nav ul {
 
 .first-part {
   background-image: url(../img/NewHomePageImage.jpg);
-
+  background-size: cover;
   width: 100%;
   height: 100%;
   display: flex;

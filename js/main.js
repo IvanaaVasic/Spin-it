@@ -1,7 +1,11 @@
 var gallery = document.querySelector(".gallery");
 var galleryItems = document.querySelectorAll(".gallery-item");
 var numOfItems = gallery.children.length;
-var itemWidth = 27.188; // percent: as set in css
+const clientWidthScreen =
+  window.innerWidth ||
+  document.documentElement.clientWidth ||
+  document.body.clientWidth;
+var itemWidth = (500 * 100) / clientWidthScreen; // percent: as set in css
 
 var featured = document.querySelector(".featured-item");
 

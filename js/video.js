@@ -1,7 +1,11 @@
 var gallery = document.querySelector(".video");
 var galleryItems = document.querySelectorAll(".video-item");
 var numOfItems = gallery.children.length;
-var itemWidth = 38.064; // percent: as set in css
+const clientWidthScreen =
+  window.innerWidth ||
+  document.documentElement.clientWidth ||
+  document.body.clientWidth;
+var itemWidth = (700 * 100) / clientWidthScreen; // percent: as set in css
 
 var featured = document.querySelector(".featured-item");
 

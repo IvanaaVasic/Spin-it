@@ -76,3 +76,45 @@ if (cart.items.length === 0) {
 if (cart.items.length === 0) {
   document.querySelector(".cart-total-price").innerText = `- RSD`;
 }
+
+function submitOrder() {
+  const name = document.querySelector("#name").value;
+  const surname = document.querySelector("#surname").value;
+  const email = document.querySelector("#email").value;
+  const phoneNumber = document.querySelector("#phoneNumber").value;
+  const address = document.querySelector("#address").value;
+  const aptNumber = document.querySelector("#aptNumber").value;
+  const city = document.querySelector("#city").value;
+  const country = document.querySelector("#country").value;
+
+  const items = fetchCartFromStorage().items;
+
+  const subTotal = calculateTotal(cart);
+  const shippingCosts = subTotal < 6000 ? 250 : 0;
+
+  const total = subTotal + shippingCosts;
+
+  const data = {
+    name,
+    surname,
+    email,
+    phoneNumber,
+    address,
+    aptNumber,
+    city,
+    country,
+    items,
+    total
+  };
+
+  fetch("/submit-order.php", {
+    method: "POST",
+    body: JSON.stringify(data)
+  })
+    .then(res => {
+      // show success message to user (and to check email)
+    })
+    .catch(err => {
+      // Show error to user
+    });
+}

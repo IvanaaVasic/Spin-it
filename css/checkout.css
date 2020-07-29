@@ -80,6 +80,7 @@ nav a:hover {
     margin-top: 50px;
     margin-bottom: 20px;
     margin-left: 100px;
+    cursor: pointer;
 }
 
 .links-explanation a {

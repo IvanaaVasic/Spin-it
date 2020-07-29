@@ -83,7 +83,7 @@ nav a:hover {
     }
 
     .third-part-video {
-        display: none;
+        height: 100px;
     }
 }
 

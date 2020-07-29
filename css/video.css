@@ -84,7 +84,7 @@ nav a:hover {
     }
 
     .third-part-video {
-        height: 100px;
+        display: none;
     }
 }
 

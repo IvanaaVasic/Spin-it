@@ -111,10 +111,15 @@ function submitOrder() {
     method: "POST",
     body: JSON.stringify(data)
   })
-    .then(res => {
-      // show success message to user (and to check email)
+    .then(() => {
+      alert("Uspesno..kakska");
+
+      STORAGE.removeItem("cart");
+
+      document.location.reload;
     })
     .catch(err => {
-      // Show error to user
+      alert("ERROR!");
+      console.error(err);
     });
 }

@@ -104,7 +104,7 @@ const PRODUCTS = {
         name: "Lavander",
         images: [
           "tops/Heart/Lila/Studio2-4644.jpg",
-          "tops/Heart/Lila/Studio2-4651.jpg",
+          "tops/Heart/Lila/272A4651.jpg",
           "tops/Heart/Lila/Studio2-4652.jpg",
           "tops/Heart/Lila/Studio2-4655.jpg"
         ]
@@ -206,7 +206,7 @@ const PRODUCTS = {
         name: "Lavander",
         images: [
           "bottoms/underpants/PoleDanceExotic/Lila/Studio2-4645.jpg",
-          "bottoms/underpants/PoleDanceExotic/Lila/Studio2-4651.jpg",
+          "bottoms/underpants/PoleDanceExotic/Lila/272A4651.jpg",
           "bottoms/underpants/PoleDanceExotic/Lila/Studio2-4656.jpg",
           "bottoms/underpants/PoleDanceExotic/Lila/Studio2-4690.jpg"
         ]
@@ -214,10 +214,10 @@ const PRODUCTS = {
       nude: {
         name: "Nude Pink",
         images: [
-          "bottoms/underpants/PoleDanceExotic/Nude/Studio2-4434.jpg",
+          "bottoms/underpants/PoleDanceExotic/Nude/272A4434.jpg",
           "bottoms/underpants/PoleDanceExotic/Nude/Studio2-4442.jpg",
-          "bottoms/underpants/PoleDanceExotic/Nude/Studio2-4450.jpg",
-          "bottoms/underpants/PoleDanceExotic/Nude/Studio2-4460.jpg"
+          "bottoms/underpants/PoleDanceExotic/Nude/272A4450.jpg",
+          "bottoms/underpants/PoleDanceExotic/Nude/272A4460.jpg"
         ]
       },
       blue: {
@@ -343,7 +343,7 @@ const PRODUCTS = {
         images: [
           "bottoms/Helanke/PerfectWaist/crne/Studio2-4773.jpg",
           "bottoms/Helanke/PerfectWaist/crne/Studio2-4776.jpg",
-          "bottoms/Helanke/PerfectWaist/crne/Studio2-4779.jpg",
+          "bottoms/Helanke/PerfectWaist/crne/272A4779.jpg",
           "bottoms/Helanke/PerfectWaist/crne/Studio2-4781.jpg"
         ]
       },
